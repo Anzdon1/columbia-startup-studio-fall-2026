@@ -2,7 +2,10 @@
 
 Team members: Michelle Mai, Lookman Mustapha
 
-Design doc (all four exercises + top two ideas):
+In class we also worked with Michael Tzitzikakis (his team was missing that day).
+
+Design doc (all four exercises + top two ideas). The link is open to Columbia accounts, and a PDF copy is in this folder: [design-work.pdf](design-work.pdf)
+
 https://docs.google.com/document/d/1uRY75v-_YSCQmxLvNjZ0Rw89QXwFSZfoNaiGXaHDgqM/edit?usp=sharing
 
 The doc includes:
