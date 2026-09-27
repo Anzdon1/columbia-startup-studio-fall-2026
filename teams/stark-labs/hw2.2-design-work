@@ -1,0 +1,792 @@
+# STARK LABS Homework 2.2 — Team Design Work
+
+**Course:** COMSW4995_014_2026_3  
+**Team members:** Handong He (`hh3152`) and Mansi Pravinkumar Rank (`mpr2172`)
+
+> **Review status:** Both individual contributions have been combined. The written sources do not contain the actual team vote or a jointly agreed final pair. Sections 3 and 5 therefore remain open; this copy is for team review before submission.
+
+---
+
+## Starting Points
+
+Our individual explorations produced four starting directions:
+
+1. Collecting website content from clients
+2. Practicing technical project interviews
+3. Routing document-processing work
+4. Learning a creator's editing preferences
+
+This document keeps both contributions visible and uses unique IDs throughout: `H` for Handong and `M` for Mansi. The same IDs appear in the concept tables, voting record, and canvases.
+
+The concept scores and proposed prices are hypotheses. We have not treated them as customer evidence. Competitor claims have been checked and narrowed where the original wording was too broad.
+
+---
+
+# 1. Worst Possible Idea
+
+We each prepared an initial set with AI assistance. These entries combine the written notes and keep the author of each starting point visible. They are not presented as a transcript of a live team conversation.
+
+### H-W1 — A Client Form Nobody Finishes
+
+**Starting contribution:** Handong He
+
+**Problem:** A web studio needs descriptions, images, and answers from a client before it can finish the site.
+
+**Bad idea:** Require a 200-question form to be completed in one sitting.
+
+**Make it worse:** Delete unfinished answers when the client closes the page, use unexplained marketing terms, and keep sending reminders after questions have been answered.
+
+**Useful flip:** Start from material the client already has, ask short questions about the gaps, and organize the result around the site's pages.
+
+**Related concept:** `H-A1 ClientReady`
+
+**Question to test:** A simpler process may not help if the client does not consider the project a priority.
+
+---
+
+### H-W2 — Every File Is Called Final
+
+**Starting contribution:** Handong He
+
+**Problem:** A freelancer receives feedback on several versions and cannot tell which instructions still apply.
+
+**Bad idea:** Name every version final and collect comments in disappearing messages.
+
+**Make it worse:** Mix comments from different drafts, leave conflicting instructions unresolved, and count silence as approval.
+
+**Useful flip:** Attach feedback and explicit approval to a particular version, with unresolved decisions still visible.
+
+**Related concept:** `H-A4 Version approval page`
+
+**Question to test:** This may be useful inside another product without justifying a separate subscription.
+
+---
+
+### H-W3 — An Interview Coach That Invents Your Project
+
+**Starting contribution:** Handong He
+
+**Problem:** A candidate needs to explain their own technical contribution under follow-up questions.
+
+**Bad idea:** Write an impressive answer about a project the candidate never built.
+
+**Make it worse:** Invent performance numbers and technology choices, then repeat the original answer whenever the interviewer asks for detail.
+
+**Useful flip:** Practice from a real project: what the candidate did, why they made a decision, and what went wrong. Follow up on unclear answers.
+
+**Related concept:** `H-B1 ProjectProof`
+
+**Question to test:** Feedback needs to separate an unclear explanation from a genuine gap in technical understanding.
+
+---
+
+### H-W4 — A Mock Interview After the Real Interview
+
+**Starting contribution:** Handong He
+
+**Problem:** A candidate needs timely practice and useful feedback before an interview.
+
+**Bad idea:** Schedule the practice session for the following day and give only a numerical score.
+
+**Make it worse:** Ask unrelated questions, give contradictory advice, and delete the recording.
+
+**Useful flip:** Offer a short session before the interview, identify specific improvements, and let the candidate retry difficult questions. A peer can provide the feedback.
+
+**Related concept:** `H-B7 Peer interview exchange`
+
+**Question to test:** A partner must be available, show up, and give useful feedback.
+
+---
+
+### M-W1 — A Model That Reads Everything Twice
+
+**Starting contribution:** Mansi Pravinkumar Rank
+
+**Problem:** A document pipeline may use costly processing even when a simpler route would meet the task's needs.
+
+**Bad idea:** Send every page, including blank cover sheets, through the most expensive available vision model.
+
+**Make it worse:** Charge for unhelpful outputs and retry endlessly without checking whether a simpler method would work.
+
+**Useful flip:** Try local text extraction or OCR first, and escalate when a measured quality requirement calls for it.
+
+**Related concept:** `M-A1 Strata`
+
+**Question to test:** The savings must matter to a reachable customer and must survive a quality comparison.
+
+---
+
+### M-W2 — A Bill Nobody Can Explain
+
+**Starting contribution:** Mansi Pravinkumar Rank
+
+**Problem:** A team cannot connect document-processing charges to the work that was actually required.
+
+**Bad idea:** Charge one opaque rate for every document, regardless of its content or processing route.
+
+**Make it worse:** Change the rate unpredictably at renewal and leave nobody able to explain how it was set.
+
+**Useful flip:** Show the processing route and associated cost so customers can understand what they are paying for.
+
+**Related concept:** `M-A2 Spend visibility and pricing within M-A1 Strata`
+
+**Question to test:** This looks more like a feature or pricing choice within Strata than an independent business.
+
+---
+
+### M-W3 — An Editor That Forgets You Exist
+
+**Starting contribution:** Mansi Pravinkumar Rank
+
+**Problem:** A creator may need to repeat or correct editing preferences across projects.
+
+**Bad idea:** Ignore every previous project and ask the creator to explain their taste from the beginning each time.
+
+**Make it worse:** Make the creator type a detailed style description, then ignore much of it.
+
+**Useful flip:** Build an editable preference profile from the creator's own completed work and use it to guide later edits.
+
+**Related concept:** `M-B1 Auteur`
+
+**Question to test:** Saved instructions and brand templates already exist. The inferred profile must improve results beyond those options.
+
+---
+
+### M-W4 — A Cut That Ships Without Checking
+
+**Starting contribution:** Mansi Pravinkumar Rank
+
+**Problem:** A creator can discover a style mismatch after spending time polishing a video.
+
+**Bad idea:** Finish and export the edit without comparing it with the creator's preferences.
+
+**Make it worse:** Choose unsuitable music and provide no opportunity to review the mismatch before export.
+
+**Useful flip:** Compare a rough cut with the creator's reviewed profile early enough to guide changes.
+
+**Related concept:** `M-B3 Early rough-cut check within M-B1 Auteur`
+
+**Question to test:** This is likely a feature within Auteur. Its usefulness depends on whether creators agree with the feedback.
+
+---
+
+# 2. Expand with AI
+
+The shared catalog retains all 40 concepts from the two individual explorations. Each original direction contains ten concepts. The AI estimates have been preserved. Some descriptions have been edited to make assumptions explicit and correct claims about current products.
+
+> **Final packaging:** The class exercise calls for two or three core directions. After the team confirms the vote and final pair, the relevant two or three groups will form the core exercise and the remaining group or groups will stay in a supplemental appendix. No generated options will be dropped.
+
+### Expansion Prompt
+
+> Act as a product designer doing divergent thinking. Generate ten problem-solution pairs for this problem and starting idea. For each, give the specific problem, who cares and why, a simple solution, and a 1–10 estimate of how real and painful the problem might be.
+
+The score is an AI estimate of potential pain, not a measured customer rating.
+
+---
+
+## H-A — Client Content Collection
+
+**Starting contribution:** Handong He
+
+**Problem:** A small web studio may be waiting for descriptions, images, or answers from its client.
+
+**Starting idea:** Help the client supply missing material and organize it by page.
+
+| ID | Idea | Problem | Who cares and why | Possible solution | AI estimate |
+|---|---|---|---|---|---:|
+| H-A1 | **ClientReady** | The client has not supplied enough content to finish the site. | A small studio has a paid project waiting on missing material. | Guide the client through questions, reuse existing material, and produce content organized by page. | 8 |
+| H-A2 | **Check uploaded assets** | Images are too small or required files are missing. | The developer has to ask for replacements. | Check uploads against the project's file and image requirements. | 7 |
+| H-A3 | **Map the business services** | The owner describes the same service differently in different places. | The designer needs to know what belongs on each page. | Use a short interview to build a consistent service list and page outline. | 6 |
+| H-A4 | **Version approval page** | Feedback refers to an old draft or conflicts with earlier instructions. | The freelancer needs to know which changes to make. | Keep comments and explicit approval attached to a specific version. | 7 |
+| H-A5 | **Collect a case study** | The client has examples of good work but has never written them up. | The studio needs credible project examples for the site. | Ask about one completed job and collect its facts, outcome, and images. | 6 |
+| H-A6 | **Batch the questions** | Small clarification requests arrive throughout the week. | Both the client and developer keep getting interrupted. | Put unanswered questions in one short list the client can complete at once. | 6 |
+| H-A7 | **Website handover guide** | The owner does not know how to make simple changes after launch. | Routine edits keep coming back to the developer. | Provide instructions for the actual pages and fields the owner will update. | 6 |
+| H-A8 | **Content collection session** | The client still struggles even with a well-designed form. | The studio needs to get a stalled project moving. | Offer a short human-led session and organize the material afterward. | 7 |
+| H-A9 | **Check content before launch** | Missing contact details or unfinished sections appear at the last minute. | The studio wants to avoid another correction round. | Check the content against the agreed page list before launch. | 7 |
+| H-A10 | **Small update queue** | Maintenance requests are scattered across messages. | A freelancer needs to track several clients' small changes. | Let clients submit page-specific changes into one queue. | 6 |
+
+---
+
+## H-B — Technical Project Interview Practice
+
+**Starting contribution:** Handong He
+
+**Problem:** A candidate may struggle to explain their own project decisions, contribution, or failures.
+
+**Starting idea:** Practice from the candidate's real work and follow up on unclear answers.
+
+| ID | Idea | Problem | Who cares and why | Possible solution | AI estimate |
+|---|---|---|---|---|---:|
+| H-B1 | **ProjectProof** | The candidate's project explanation falls apart under follow-up questions. | Someone with an upcoming interview needs to discuss work they actually did. | Ask project-specific questions, probe vague answers, and repeat the weak parts. | 8 |
+| H-B2 | **Clarify personal contribution** | A team project makes it hard to explain who did what. | An early-career candidate needs to describe their own work accurately. | Map project components to the candidate's contribution and examples. | 7 |
+| H-B3 | **Practice design decisions** | The candidate lists technologies without explaining the choices. | Interviewers may ask about alternatives and tradeoffs. | Practice one decision at a time, including what was rejected and why. | 7 |
+| H-B4 | **Explain a failure** | The candidate struggles to discuss a bug or unsuccessful approach. | They need a concrete account of how they solved a problem. | Reconstruct a real incident and practice follow-up questions about it. | 6 |
+| H-B5 | **Check impact claims** | A resume number has no clear baseline or measurement. | The candidate may be asked to defend that number. | Separate measured results from estimates and identify missing evidence. | 7 |
+| H-B6 | **Explain it in English** | The explanation is clear in the candidate's first language but difficult in English. | A non-native speaker wants to communicate technical work more clearly. | Record a short explanation, review it, and try again. | 7 |
+| H-B7 | **Peer interview exchange** | The candidate cannot find a useful practice partner. | A student wants feedback from someone unfamiliar with the project. | Match peers for a walkthrough with a shared question and feedback guide. | 7 |
+| H-B8 | **Rehearse the demo** | The live demonstration runs too long or is hard to follow. | The candidate needs to show a portfolio project concisely. | Practice a timed demo and prepare a fallback walkthrough. | 6 |
+| H-B9 | **Retry difficult questions** | The candidate forgets which questions caused trouble last time. | Repeated practice should address the same weak points. | Save difficult questions and bring them back in a later session. | 6 |
+| H-B10 | **Connect a project to a role** | The candidate cannot explain why a project is relevant to the job. | They need examples that relate to the actual position. | Compare the role description with the candidate's project evidence. | 7 |
+
+---
+
+## M-A — Document Processing and Routing
+
+**Starting contribution:** Mansi Pravinkumar Rank
+
+**Problem:** Some pipelines may spend more than necessary on a mix of easy and difficult documents.
+
+**Starting idea:** Try simpler extraction first and escalate only when the task's quality requirements call for it.
+
+| ID | Idea | Problem | Who cares and why | Possible solution | AI estimate |
+|---|---|---|---|---|---:|
+| M-A1 | **Strata** | A pipeline may send pages to a costly model even when simpler extraction could meet its needs. | An engineer or platform lead responsible for document-processing cost and quality. | Try local text extraction, then OCR, and escalate only when the agreed quality check requires it. | 8 |
+| M-A2 | **Spend visibility** | The team cannot easily see which processing steps account for its document bill. | Finance or engineering lead reviewing a vendor invoice line by line. | Log each page's engine, routing reason, estimated cost, and retry count. | 6 |
+| M-A3 | **Policy-approved document routing** | An organization may restrict which services can process sensitive documents. | An operations or platform lead who must enforce approved processing policies. | Apply organization-defined routing rules, including local-only processing when required. | 7 |
+| M-A4 | **Vendor cost benchmark** | No easy way to know which OCR or vision vendor is actually worth the money for a given document mix. | Data platform PM comparing vendors. | Run a permissioned sample through selected engines and compare measured quality with total processing cost. | 5 |
+| M-A5 | **Drop-in classifier library** | Teams may duplicate the work of distinguishing native-text pages from scanned pages. | Backend engineer maintaining a document pipeline. | An open-source library that does the classification and routing out of the box. | 4 |
+| M-A6 | **Small-team hosted router** | A small team may lack time to implement and maintain several extraction routes. | Two-person startup with a document-heavy product. | A hosted API that handles the tiering, billed per page. | 8 |
+| M-A7 | **Confidence-threshold tuner** | Nobody knows where to set the escalation cutoff, so it's usually a guess. | ML engineer tuning a document pipeline. | Tune the threshold against a sample of the team's own documents. | 5 |
+| M-A8 | **Routing audit trail** | After the fact, nobody can explain why a given document got routed the way it did. | A platform or operations reviewer investigating a routing decision. | A replayable log tied to each routing decision. | 5 |
+| M-A9 | **Multi-tenant document API** | Companies building on top of documents don't want to wire up three separate integrations themselves. | SaaS founder building a document-heavy product. | One API that already handles the tiering, built once. | 7 |
+| M-A10 | **Legacy pipeline migration** | An established pipeline may have avoidable model costs, but replacing it would take time. | Engineering lead who inherited an expensive setup. | Test a routing layer on a sample batch before changing the existing pipeline. | 6 |
+
+---
+
+## M-B — Editing Preferences Across Video Projects
+
+**Starting contribution:** Mansi Pravinkumar Rank
+
+**Problem:** A creator may repeatedly correct editing choices despite existing templates and saved instructions.
+
+**Starting idea:** Test whether a profile inferred from the creator's own finished work improves later suggestions.
+
+| ID | Idea | Problem | Who cares and why | Possible solution | AI estimate |
+|---|---|---|---|---|---:|
+| M-B1 | **Auteur** | A creator may still spend time correcting style choices despite templates and saved editing instructions. | Solo creator posting multiple times a week. | Infer an editable profile from the creator's own finished videos and test it on later work. | 8 |
+| M-B2 | **Taste-matched music** | Finding a track that fits a video's pacing eats real time and often still misses. | Same creator, at the music step specifically. | Suggest tracks from an approved music library using the creator's prior choices as a reference. | 6 |
+| M-B3 | **Early rough-cut check** | A creator may notice a style mismatch only after spending time polishing a cut. | Same creator, earlier in the process. | Compare a rough pass with an editable preference profile before detailed editing. | 5 |
+| M-B4 | **Style handoff for teams** | A new editor may struggle to infer the channel's preferences from informal handovers. | Three-person channel hiring their first editor. | A shared profile any editor, human or otherwise, can reference. | 5 |
+| M-B5 | **Style comparison** | Newer creators imitate a bigger channel's surface look without grasping why it actually works. | Newer creators studying someone they admire. | A view that shows exactly what differs between two taste profiles. | 3 |
+| M-B6 | **Catalog consistency audit** | A creator with years of content has no way to spot where their style quietly drifted. | Creator planning a rebrand or auditing an old catalog. | Compare a chosen set of past videos with the creator's current, explicitly reviewed preferences. | 4 |
+| M-B7 | **Cold-start profile** | Brand-new creators have no back catalog for a memory-based tool to learn from. | Creator just getting started. | Build the first profile from a short onboarding conversation instead. | 5 |
+| M-B8 | **Brand-safe auto-edit** | A marketing team needs editing choices to follow shared brand requirements. | Social media manager at a small company. | Use an editable brand profile and test whether it improves on existing brand templates. | 6 |
+| M-B9 | **Export-time check** | Creators finish a cut and can't quite tell if it's ready or needs another pass. | Same creator, right at the end. | Give a creator a final comparison with their reviewed preferences, leaving the publishing decision to them. | 4 |
+| M-B10 | **Peer style-feedback exchange** | Getting a real second opinion on whether an edit matches your style is genuinely hard to arrange. | Solo creator with no editing team around them. | Match creators to review each other's cuts against a shared checklist. | 5 |
+
+---
+
+# 3. Dot Voting
+
+Actual vote results have not been provided in either written source. Each team member has three votes, may place more than one vote on a concept, and votes independently before discussion.
+
+The full catalog above is the common list. The table below records the selections available in the source drafts.
+
+| Member | Vote 1 | Vote 2 | Vote 3 |
+|---|---|---|---|
+| Handong He | ClientReady | ClientReady | ProjectProof |
+| Mansi Pravinkumar Rank | Strata | Strata | Auteur |
+
+### Totals and Shortlist
+
+The written sources do not contain a confirmed team vote or final vote totals. The final record should be updated if the team decides to document the individual vote count separately from the agreed final ideas.
+
+---
+
+## Proposals Brought Into the Vote
+
+These are the personal shortlists found in the source drafts. They are not vote totals or a team decision.
+
+| Member | Proposed concepts |
+|---|---|
+| Handong He | H-A1 ClientReady; H-A4 Version approval page; H-B1 ProjectProof; H-B7 Peer interview exchange |
+| Mansi Pravinkumar Rank | M-A1 Strata; M-A3 Policy-approved document routing; M-B1 Auteur; M-B10 Peer style-feedback exchange |
+
+> **Note:** M-A3 was originally called "Compliance-safe routing." The revised name avoids suggesting that software alone can guarantee compliance.
+
+---
+
+# 4. Quick Lean Canvas
+
+Eight canvases are retained below so both contributions remain available for comparison.
+
+> **Canvas prompt:** Create a Lean Startup Canvas for this problem, solution, and target user. Include all nine boxes. Be specific and realistic, and flag the assumptions that need validation. Keep the first build within roughly six weeks and consider how the product could reach about 100 real users during the course.
+
+Every offer below is untested. The first tests describe proposed work, not interviews or experiments already completed.
+
+---
+
+## H-A1 — ClientReady
+
+**Problem**
+
+1. Clients struggle to write usable website content.
+2. Existing text and images are scattered across messages and files.
+3. Missing answers can delay an otherwise active website project.
+
+**Solution**
+
+1. Ask short questions based on the agreed page list.
+2. Organize answers and uploads into content for each page.
+3. Let the client confirm facts and resolve visible gaps.
+
+**Unique Value Proposition**
+
+Help a small studio receive content it can actually use, with missing facts identified before another round of building.
+
+**Unfair Advantage**
+
+None demonstrated. Repeated work with one studio niche could improve our questions, but the initial workflow would be easy to copy.
+
+**Customer Segments**
+
+Owners of one-to-five-person web studios serving local service businesses, starting with an active project delayed by missing content. Their clients would use the collection page.
+
+**Key Metrics**
+
+Studio time spent collecting content, time until material is usable, clarification rounds, client completion, and use on a second project.
+
+**Channels**
+
+Freelance developer referrals, alumni contacts, and web-design communities. We still need to check whether these channels produce willing interview participants.
+
+**Cost Structure**
+
+Hosting, storage, transcription or model calls, and human review. We would record manual time rather than assume an automated product has negligible delivery costs.
+
+**Revenue Streams**
+
+Untested offer: $49 for one clearly scoped project. Consider recurring pricing only if studios return with additional projects.
+
+**First Test**
+
+Interview five studio owners about a recent delayed project. If content collection is a recurring problem, help with two current projects and record the work required from the studio and client.
+
+**Main Risk**
+
+The client may simply consider the website a low priority. Better questions would not fix that, and existing collection tools may already be sufficient.
+
+**Comparison to Investigate**
+
+Content Snare and VocalJet were identified in the original research. We would compare the client's effort and the studio's usable output in a real workflow.
+
+---
+
+## H-A4 — Version Approval Page
+
+**Problem**
+
+1. Clients comment on outdated drafts.
+2. Different reviewers give conflicting instructions.
+3. Freelancers cannot tell whether a particular version has actually been accepted.
+
+**Solution**
+
+1. Show a clearly identified website or content version.
+2. Attach comments to that version.
+3. Record explicit approval while keeping unresolved decisions visible.
+
+**Unique Value Proposition**
+
+Give the client and freelancer one place to see what has been approved, what changed, and which decisions still need an answer.
+
+**Unfair Advantage**
+
+None demonstrated. The concept is easy to copy, so usefulness would depend on fitting a workflow people already follow.
+
+**Customer Segments**
+
+Freelance web designers and small studios handling several projects. The designer would pay; clients and other reviewers would use a shared review link.
+
+**Key Metrics**
+
+Review turnaround, clarification messages, unresolved decisions, completion by invited reviewers, and use on a second project.
+
+**Channels**
+
+Freelance design communities and referrals from studio interviews. Start with a studio willing to try the page during a real review.
+
+**Cost Structure**
+
+Hosting, version storage, notifications, and support. Keep the first version to website text and linked previews rather than building a full design annotation system.
+
+**Revenue Streams**
+
+Untested offer: $15 per studio per month. We need to learn whether approval tracking warrants a separate payment when other tools already include it.
+
+**First Test**
+
+Put one real content review through a simple page. Record where feedback arrives and ask the client and freelancer separately what became easier or harder.
+
+**Main Risk**
+
+Clients may continue replying by email or chat. If the freelancer must copy those messages into our page, the product could add work instead of reducing it.
+
+---
+
+## H-B1 — ProjectProof
+
+**Problem**
+
+1. Candidates give vague project explanations.
+2. Follow-up questions expose decisions or claims they cannot explain.
+3. Practice feedback often gives too little direction for the next attempt.
+
+**Solution**
+
+1. Begin with a real project and selected supporting material.
+2. Ask specific follow-up questions about contributions and decisions.
+3. Give focused feedback and retry the difficult questions.
+
+**Unique Value Proposition**
+
+Help candidates explain work they actually did, while making unsupported claims and unclear reasoning visible instead of polishing them away.
+
+**Unfair Advantage**
+
+None demonstrated. Access to classmates could help with early testing, but feedback quality would need to earn continued use.
+
+**Customer Segments**
+
+Adult technical students and early-career candidates with an interview in the next two weeks. One possible starting group is non-native English speakers struggling with project explanations.
+
+**Key Metrics**
+
+Session and retry completion, clearer answers under consistent assessment criteria, voluntary return, and willingness to pay. An AI score alone would not establish improvement.
+
+**Channels**
+
+Classmates, alumni referrals, and technical job-search groups. Recruit around a specific upcoming interview rather than general interest in preparation.
+
+**Cost Structure**
+
+Transcription, model calls, hosting, and feedback review. Begin with a small amount of material that the candidate chooses to provide.
+
+**Revenue Streams**
+
+Untested offer: $19 for a week of practice. A short package may fit a time-limited interview need better than an ongoing subscription.
+
+**First Test**
+
+Interview five candidates, then run an initial session and a retry. Let participants compare the feedback with an existing free tool and explain which advice they could use.
+
+**Main Risk**
+
+The main problem may be technical knowledge or access to interviews rather than communication. Free tools may already provide enough relevant practice.
+
+**Comparison to Investigate**
+
+OneCompiler project-deep-dive practice and Yoodli were identified in the original research. The proposed product needs evidence that its feedback is useful beyond the available alternatives.
+
+---
+
+## H-B7 — Peer Interview Exchange
+
+**Problem**
+
+1. Candidates cannot find an available practice partner.
+2. Arranging a session takes repeated messages.
+3. Partners vary in how carefully they listen and how useful their feedback is.
+
+**Solution**
+
+1. Collect availability and relevant technical background.
+2. Match pairs manually for a short project walkthrough.
+3. Provide a shared question guide and specific feedback prompts.
+
+**Unique Value Proposition**
+
+Find a person who can listen to a real project explanation and ask useful questions before the candidate's actual interview.
+
+**Unfair Advantage**
+
+None demonstrated. A reliable group of returning participants could help, but we do not have that group yet.
+
+**Customer Segments**
+
+Adult technical students preparing for interviews who are also willing to spend time interviewing someone else. Start with a small group whose schedules can overlap.
+
+**Key Metrics**
+
+Time to find a partner, attendance, completed reciprocal sessions, usefulness of feedback, and requests for another session.
+
+**Channels**
+
+Classmates, student groups, alumni, and participant referrals. The first matches can come from a small group before we attempt broader recruitment.
+
+**Cost Structure**
+
+Organizer time for scheduling, matching, reminders, support, and missed sessions. Those tasks would be measured before deciding which ones need software.
+
+**Revenue Streams**
+
+Untested offer: $5 for an organized session, if participants value the coordination and feedback. Free practice with friends is an obvious alternative.
+
+**First Test**
+
+Find six volunteers and arrange three pairs manually. Ask each participant separately what feedback helped, whether the match worked, and whether they want another session.
+
+**Main Risk**
+
+Good matching cannot compensate for no-shows or weak feedback. Participants may also want help without being willing to provide an equally useful session in return.
+
+---
+
+## M-A1 — Strata
+
+**Problem**
+
+1. Some document pipelines may use a paid vision model for simple pages.
+2. Teams cannot easily explain processing cost by page.
+3. Cheaper routing can introduce extraction errors that erase the savings.
+
+**Solution**
+
+1. Try local text extraction where appropriate.
+2. Route harder pages to OCR or an approved vision model.
+3. Log routing decisions and check results against customer-defined accuracy thresholds.
+
+**Unique Value Proposition**
+
+Test whether a team's document mix can cost less to process while meeting its accuracy threshold. We would measure both outcomes rather than promise unchanged accuracy.
+
+**Unfair Advantage**
+
+None demonstrated. Threshold tuning and evaluation data could become useful, but neither is an established advantage today.
+
+**Customer Segments**
+
+Small-to-mid AI teams with measurable document volume and a reasonably predictable document mix. Start with one workflow whose owner can explain the current pipeline.
+
+**Key Metrics**
+
+Total cost per page, escalation share, task-specific accuracy, latency, and review or correction effort.
+
+**Channels**
+
+Technical communities, direct outreach to document-processing teams, clear documentation, and a proposed cost calculator. Access to real evaluators remains unproven.
+
+**Cost Structure**
+
+Local extraction and OCR compute, storage, paid model calls, engineering, and evaluation. Local extraction avoids some paid model calls; it does not eliminate operating costs.
+
+**Revenue Streams**
+
+Untested usage-based offer: approximately $0.01–$0.03 per escalated page, reflecting the tier used. Unit costs and customer willingness to pay still need testing.
+
+**First Test**
+
+Use an approved, non-sensitive document sample and labeled answers to compare the current pipeline with tiered routing. Report accuracy, full cost, and which pages avoid paid calls.
+
+**Main Risk**
+
+LlamaParse already offers page-level Cost Optimizer routing. Any comparison with Reducto must measure the relevant workflow; we cannot assume it is always costlier. Savings may not justify integration.
+
+**Competition Check**
+
+LlamaParse documents page-level Cost Optimizer routing. Reducto describes a hybrid processing approach and publishes usage-based pricing. Neither establishes how our proposed router would perform on a customer's documents.
+
+---
+
+## M-A3 — Policy-Approved Document Routing
+
+**Problem**
+
+1. Organizations may restrict which systems process particular documents.
+2. Existing pipelines may not express those rules clearly.
+3. Operations teams may lack a useful record of routing decisions.
+
+**Solution**
+
+1. Represent customer-approved processing rules explicitly.
+2. Route documents only to permitted local or external engines.
+3. Log decisions and stop for review when the permitted route is unclear.
+
+**Unique Value Proposition**
+
+Make document-processing choices visible and consistent with an organization's approved rules. The product would support a controlled workflow, not certify legal or regulatory compliance.
+
+**Unfair Advantage**
+
+None demonstrated. We lack proven domain expertise, customer-specific integrations, and evidence that this problem supports a separate product.
+
+**Customer Segments**
+
+Operations or platform teams with documented limits arising from organizational policy, contracts, or regulation. We would start by understanding one accessible team's workflow.
+
+**Key Metrics**
+
+Adherence to supplied routing rules, unresolved cases, extraction quality on permitted engines, review effort, and completeness of decision records.
+
+**Channels**
+
+Operations interviews and relevant technical communities. Access to buyers and the time needed for organizational review are untested.
+
+**Cost Structure**
+
+Local compute, maintenance, logging, access controls, and support. Costs depend on approved engines and workload; local processing is not automatically cheaper.
+
+**Revenue Streams**
+
+Untested hypothesis: a price above the basic Strata offer for additional policy configuration and support. No numeric premium is established, and pricing would not imply a compliance guarantee.
+
+**First Test**
+
+Interview an operations lead about a real tool approval or rejection. Demonstrate a small set of their stated routing rules using only non-sensitive synthetic or sample documents.
+
+**Main Risk**
+
+The restriction may already be handled adequately by existing infrastructure. Sensitive-data handling, legal interpretation, procurement, and integration could exceed a two-person course project's scope.
+
+---
+
+## M-B1 — Auteur
+
+**Problem**
+
+1. Creators may struggle to express editing preferences in instructions.
+2. Automated suggestions may require repeated corrections.
+3. A finished edit may feel inconsistent with the creator's previous work.
+
+**Solution**
+
+1. Infer a proposed preference profile from the creator's own finished videos.
+2. Let the creator inspect and correct that profile.
+3. Use it to suggest a limited rough-cut change for new footage.
+
+**Unique Value Proposition**
+
+Test whether preferences inferred from finished work produce more useful suggestions than the creator's existing saved instructions and templates.
+
+**Unfair Advantage**
+
+None demonstrated. A profile is not automatically defensible or a meaningful switching cost; usefulness and improvement would have to be shown.
+
+**Customer Segments**
+
+Adult solo creators posting regularly who can identify recurring corrections in their current workflow and provide their own finished videos for a controlled test.
+
+**Key Metrics**
+
+Manual re-editing time, accepted suggestions, creator judgments against a consistent rubric, and voluntary reuse. A model's taste score alone would not demonstrate value.
+
+**Channels**
+
+Creator communities, Discord groups, and direct outreach to active creators. Early recruitment would focus on one repeatable video format.
+
+**Cost Structure**
+
+Video processing, storage, inference, and human review. Limiting video length and the editing task would help test the idea within the course.
+
+**Revenue Streams**
+
+Untested subscription hypothesis: approximately $15–$25 per month, with limits based on video volume or storage.
+
+**First Test**
+
+Ask creators to identify specific unwanted edits. Compare a small suggestion informed by their own finished videos with their current saved instructions or template on the same task.
+
+**Main Risk**
+
+Descript Underlord already supports saved editing instructions across projects, and OpusClip and CapCut offer brand templates or assets. Inferred preferences may add little beyond those options, or vary too much to use reliably.
+
+**Competition Check**
+
+Descript demonstrates cross-project editing preferences. OpusClip offers reusable brand templates, and CapCut documents shared brand assets. These features narrow the proposed differentiation; they do not establish whether learning from finished videos will work better.
+
+---
+
+## M-B10 — Peer Style-Feedback Exchange
+
+**Problem**
+
+1. Solo creators may lack a dependable second reviewer.
+2. Arranging feedback before publishing takes time.
+3. General opinions may not explain whether an edit fits the creator's intended style.
+
+**Solution**
+
+1. Collect a rough cut and the creator's own reference videos.
+2. Match creators manually for reciprocal review.
+3. Use a short checklist that asks for specific moments and suggested changes.
+
+**Unique Value Proposition**
+
+Get a considered response from someone who watched the cut and can explain where it fits or departs from the creator's stated intent.
+
+**Unfair Advantage**
+
+None demonstrated. A dependable community could support the service, but that community has not been built or tested.
+
+**Customer Segments**
+
+Adult solo creators without an editing team who are willing to review another person's work. Start with short videos in a similar format.
+
+**Key Metrics**
+
+Time to find a match, completed reviews, feedback usefulness, changes made because of feedback, and requests for another round.
+
+**Channels**
+
+Creator communities and referrals from initial participants. Early matching would stay small enough to check whether both sides complete the exchange.
+
+**Cost Structure**
+
+Organizer time for matching, reminders, and resolving missed reviews. Use existing video-sharing links initially, keeping hosting and moderation needs limited.
+
+**Revenue Streams**
+
+Untested offer: about $5 per organized session if the matching and feedback are worth paying for. Free exchanges with friends or community members remain alternatives.
+
+**First Test**
+
+Recruit a few creators and hand-match a small set of pairs. Ask each person separately which comments were useful, what they changed, and whether they would return.
+
+**Main Risk**
+
+Participants may miss deadlines or give vague feedback. Even a thoughtful reviewer may interpret style differently, so the service needs to reveal useful differences without treating one person's taste as a correct answer.
+
+---
+
+# 5. The Final Two Ideas
+
+## Our Top Two Ideas
+
+### 1. Strata
+
+Document-processing teams often send every page through expensive processing, even when simpler methods like text extraction or OCR would be enough. **Strata** routes each document page to the cheapest engine that can meet the required quality threshold, escalating to more expensive processing only when necessary. AI teams and developers building products that process large volumes of documents would care because processing costs can add up quickly, while routing decisions can also affect accuracy and latency.
+
+### 2. ClientProof
+
+Small web studios often depend on clients to provide website descriptions, images, and other information before a project can be completed. That information is usually scattered across emails, messages, documents, and other files, and missing answers can create delays and repeated clarification rounds. **ClientProof** would help studios collect and organize the material they need, while making it easier for clients to provide the information required to move a project forward.
+
+---
+
+# 6. Next Steps
+
+After agreeing on two ideas, plan five interviews for each direction. Start with a recent real incident and the user's current workaround before discussing the proposed product.
+
+The first version should test one narrow workflow that a two-person team can build within the course schedule.
+
+The route to roughly 100 real users is an open assumption for both directions. Document-processing teams may be harder to recruit, while the studio product requires participation from both the studio and its client.
+
+We would count completed uses of the core workflow and return visits, not just registrations or files processed.
+
+---
+
+# AI Use and Sources
+
+Both individual drafts used AI for brainstorming, concept expansion, canvases, and competitor research. AI also assisted with this consolidation, consistent IDs, and wording corrections.
+
+The scores and prices remain assumptions. The final team choices are **Strata** and **ClientProof**.
+
+### Course Sources
+
+- [Homework 2.2 Instructions](https://courseworks2.columbia.edu/courses/258234/assignments/1742870)
+- [Class 3 Design Exercises](https://github.com/kenxle/columbia-startup-studio-fall-2026/blob/main/classes/20260925_c3w3_fri_problem-solution-interviews/class-3-slides.html)
+
+### Contributions Combined
+
+Handong's HW 2.2 Individual Contribution Google Doc and Mansi's uploaded Homework 2.2 Team Design Work document.
+
+This version preserves the eight starting exercises, forty concepts, and eight canvases. Factual wording corrections do not change the original AI estimates.
