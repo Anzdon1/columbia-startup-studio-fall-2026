@@ -4,7 +4,7 @@ This folder contains our Class 3 design work for HW 2.2.
 
 Included document:
 
-- Class-3-Exercises.docx
+- Class-3-Exercises.pdf
 
 The document includes:
 
