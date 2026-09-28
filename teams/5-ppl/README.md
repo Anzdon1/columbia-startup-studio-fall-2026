@@ -9,3 +9,7 @@
 | Cody Wang | cw3782 |
 | Arjun Joshi | asj2186 |
 | Kushaan Vardhan | krv2121 |
+
+## Homework
+
+- [HW 2.2: Design work](hw2.2-design-work/README.md)
