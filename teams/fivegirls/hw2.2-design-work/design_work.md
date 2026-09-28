@@ -167,24 +167,31 @@
 | Idea | Votes | Total |
 |---|---|---:|
 | Idea 1 — Find the Nearest Restroom | — | 0 |
-| Idea 2 — Find the Correct Floor | Ziying +1 | 1 |
+| Idea 2 — Find the Correct Floor | Ziying +1, Zhenni +1 | 2 |
 | Idea 3 — Check Whether a Restroom Is Open | — | 0 |
 | **Idea 4 — Find Accessible Restrooms** | **Zheli +1, Ciarrah +1, Ziying +1** | **3** |
 | Idea 5 — Find Gender-Neutral or Private Restrooms | — | 0 |
 | **Idea 6 — Find Cleaner Restrooms** | **Siqi +3, Zheli +1** | **4** |
 | Idea 7 — Avoid Crowded Restrooms | Ciarrah +1 | 1 |
-| **Idea 8 — Keep Restroom Information Up to Date** | **Ziying +1, Zheli +1** | **2** |
-| Idea 9 — Find the Fastest Restroom | — | 0 |
-| Idea 10 — Find a Restroom Along the Route to Class | Ciarrah +1 | 1 |
+| Idea 8 — Keep Restroom Information Up to Date | Ziying +1, Zheli +1 | 2 |
+| Idea 9 — Find the Fastest Restroom | Zhenni +1 | 1 |
+| Idea 10 — Find a Restroom Along the Route to Class | Ciarrah +1, Zhenni +1 | 2 |
+
+**Total votes: 15** — 3 votes from each of the 5 team members.
 
 ## Voting Results
 
-1. **Idea 6 — Find Cleaner Restrooms: 4 votes**
-2. **Idea 4 — Find Accessible Restrooms: 3 votes**
-3. **Idea 8 — Keep Restroom Information Up to Date: 2 votes**
-4. Idea 2 — Find the Correct Floor: 1 vote
-5. Idea 7 — Avoid Crowded Restrooms: 1 vote
-6. Idea 10 — Find a Restroom Along the Route to Class: 1 vote
+| Rank | Idea | Total Votes |
+|---|---|---:|
+| 1 | **Idea 6 — Find Cleaner Restrooms** | **4** |
+| 2 | **Idea 4 — Find Accessible Restrooms** | **3** |
+| 3 (tie) | Idea 2 — Find the Correct Floor | 2 |
+| 3 (tie) | Idea 8 — Keep Restroom Information Up to Date | 2 |
+| 3 (tie) | Idea 10 — Find a Restroom Along the Route to Class | 2 |
+| 6 (tie) | Idea 7 — Avoid Crowded Restrooms | 1 |
+| 6 (tie) | Idea 9 — Find the Fastest Restroom | 1 |
+
+Ideas 1, 3, and 5 received no votes.
 
 ---
 
