@@ -1,0 +1,16 @@
+{
+  "conversation": [
+    {
+      "role": "user",
+      "content": "Act as a product designer doing divergent thinking exercises.\nTake this problem and starting idea and generate business ideas.\n[PROBLEM]\n**The 80-Pound Student Computer**\n\n[STARTING IDEA]\nAn affordable computer aimed at students, but it weighs around 80 pounds, has extremely poor battery life, and still has to be carried around all day.\n\nGenerate 2 diverse problem-solution pairs. For each:\n1. The specific problem\n2. Why this persona cares\n3. A simple solution concept\n4. Likelihood this is a real, painful problem (1-10)"
+    },
+    {
+      "role": "assistant",
+      "content": "### 1. “I can’t realistically carry this thing between classes”\n\n1. **Specific problem**  \n   A student needs a full computer throughout the day, but an 80-pound machine is effectively non-portable. Moving it between dorms, classrooms, libraries, labs, and study spaces becomes exhausting or impossible.\n\n2. **Why this persona cares**  \n   Students frequently change locations and may have only 10–15 minutes between classes. The computer becomes a constraint on where they can study and which classes or activities they can attend with their own machine.\n\n3. **Simple solution concept**  \n   **Campus Computer Dock Network** — students own a lightweight “personal module” containing storage, credentials, and preferences, then plug it into shared high-performance computer stations distributed around campus. Their environment follows them without carrying the 80-pound hardware.\n\n4. **Likelihood this is a real, painful problem:** **10/10**\n\n---\n\n### 2. “The computer technically has a battery, but I still live next to outlets”\n\n1. **Specific problem**  \n   The machine’s extremely poor battery life means students must constantly find power outlets, potentially losing work or missing class activities when power is unavailable.\n\n2. **Why this persona cares**  \n   Campus outlets are limited, classrooms may not have conveniently located sockets, and students may spend several hours away from their dorm. Battery anxiety becomes a daily planning problem.\n\n3. **Simple solution concept**  \n   **Mobile Power Companion** — instead of redesigning the computer itself, provide rentable robotic battery carts or small powered rolling docks that follow students around campus, carry the computer, and continuously power it. It turns the absurd weight and battery problem into a campus mobility service.\n\n4. **Likelihood this is a real, painful problem:** **9/10**\n\nThese deliberately attack the same ridiculous product from two different directions: **make the computer unnecessary to carry** vs. **build infrastructure that makes carrying it tolerable**."
+    },
+    {
+      "role": "user",
+      "content": "dump convo json"
+    }
+  ]
+}
