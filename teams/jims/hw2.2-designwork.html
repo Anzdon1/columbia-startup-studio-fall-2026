@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Team Jims | HW 2.2 Design Work</title>
+	<style>
+		:root {
+			--ink: #1d2721;
+			--paper: #f5f1e8;
+			--card: #fffdf8;
+			--accent: #d9ef57;
+			--line: #1d2721;
+			--muted: #596158;
+		}
+
+		* { box-sizing: border-box; }
+
+		body {
+			margin: 0;
+			background: var(--paper);
+			color: var(--ink);
+			font-family: Georgia, "Times New Roman", serif;
+			line-height: 1.5;
+		}
+
+		main {
+			width: min(900px, calc(100% - 40px));
+			margin: 0 auto;
+			padding: 52px 0 72px;
+		}
+
+		header {
+			padding-bottom: 28px;
+			border-bottom: 3px solid var(--line);
+		}
+
+		.eyebrow, .label {
+			margin: 0;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: .75rem;
+			font-weight: 700;
+			letter-spacing: .09em;
+			text-transform: uppercase;
+		}
+
+		.eyebrow { color: var(--muted); }
+
+		h1 {
+			max-width: 700px;
+			margin: 10px 0 12px;
+			font-size: clamp(3rem, 9vw, 6rem);
+			font-weight: 400;
+			letter-spacing: -.05em;
+			line-height: .9;
+		}
+
+		.intro { max-width: 610px; margin: 0; font-size: 1.15rem; }
+
+		section { margin-top: 40px; }
+
+		h2 {
+			margin: 0 0 14px;
+			padding-top: 12px;
+			border-top: 2px solid var(--line);
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: .88rem;
+			letter-spacing: .08em;
+			text-transform: uppercase;
+		}
+
+		.submissions { display: grid; gap: 12px; }
+
+		.submission {
+			display: grid;
+			grid-template-columns: auto 1fr;
+			gap: 16px;
+			align-items: start;
+			padding: 20px;
+			border: 2px solid var(--line);
+			background: var(--card);
+		}
+
+		.submission.available { border-left: 12px solid var(--accent); }
+		.submission.missing { border-style: dashed; background: transparent; }
+
+		.number {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 1.15rem;
+			font-weight: 700;
+		}
+
+		h3 { margin: 0 0 5px; font-size: 1.35rem; font-weight: 400; }
+		.submission p { margin: 0 0 11px; color: var(--muted); }
+
+		a {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: .82rem;
+			font-weight: 700;
+			letter-spacing: .04em;
+			color: var(--ink);
+			text-decoration-thickness: 2px;
+			text-underline-offset: 3px;
+		}
+
+		.response {
+			min-height: 190px;
+			padding: 20px;
+			border: 2px dashed var(--line);
+			background: rgba(255, 253, 248, .5);
+		}
+
+		.response p { max-width: 610px; margin: 0; color: var(--muted); }
+
+		footer {
+			margin-top: 48px;
+			padding-top: 14px;
+			border-top: 2px solid var(--line);
+			color: var(--muted);
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: .78rem;
+		}
+
+		@media (max-width: 560px) {
+			main { width: min(100% - 28px, 900px); padding-top: 32px; }
+			.submission { grid-template-columns: 1fr; gap: 6px; }
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<header>
+			<p class="eyebrow">COMS 4995 · Startup Studio · Fall 2026</p>
+			<h1>HW 2.2<br>Design Work</h1>
+			<p class="intro">Team Jims' Class 3 design-work submissions.</p>
+		</header>
+
+		<section aria-labelledby="artifacts-heading">
+			<h2 id="artifacts-heading">Class 3 Exercise Documents</h2>
+			<div class="submissions">
+				<article class="submission available">
+					<span class="number">01</span>
+					<div>
+						<h3>Worst Possible Idea</h3>
+						<p>Bad ideas generated during the exercise and the corresponding flipped ideas.</p>
+						<a href="https://docs.google.com/document/d/1iM8J8n0k_ccCcxaVrYpvSppCLxbqj4CohpTKZ12krrw/edit?tab=t.0" target="_blank" rel="noopener noreferrer">Open document</a>
+					</div>
+				</article>
+
+				<article class="submission available">
+					<span class="number">02</span>
+					<div>
+						<h3>Dot Voting</h3>
+						<p>Voting results, including the votes cast for each concept.</p>
+						<a href="https://docs.google.com/document/d/18Q1X3Ve9PVC9CPurinySk3568vLM4oHFvwbx2y9Ehhg/edit?tab=t.0" target="_blank" rel="noopener noreferrer">Open document</a>
+					</div>
+				</article>
+
+				<article class="submission available">
+					<span class="number">03</span>
+					<div>
+						<h3>Lean Canvases + Top 2 Ideas</h3>
+						<p>Lean Canvas entries for each idea that was run through the prompt.</p>
+						<a href="https://docs.google.com/document/d/1_DNu_ki7sJld5O3HaLlGe_NTnQ29JxRBu1kvcPJKSu4/edit?tab=t.0" target="_blank" rel="noopener noreferrer">Open document</a>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<section aria-labelledby="top-two-heading">
+			<h2 id="top-two-heading">Top Two Ideas</h2>
+			<div class="response">
+				<p>To be completed by Team Jims: for each selected idea, describe the problem, who experiences it, and why they would care about a solution.</p>
+			</div>
+		</section>
+
+		<footer>Team Jims · Homework 2.2</footer>
+	</main>
+</body>
+</html>
