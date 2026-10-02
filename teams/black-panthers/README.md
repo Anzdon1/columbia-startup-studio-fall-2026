@@ -1,4 +1,4 @@
-# Black Panther
+# Black Panthers
 
 ## Team members
 
