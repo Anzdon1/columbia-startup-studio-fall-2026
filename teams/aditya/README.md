@@ -4,7 +4,7 @@
 |---|---|
 | Michelle Mai | mhm2197 |
 | Lookman Mustapha | lm3693 |
-| Sam (full name pending) | TBD |
+| Sam Hearst | ash2287 |
 
 ## Homework 3
 
