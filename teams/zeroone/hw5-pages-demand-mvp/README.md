@@ -30,7 +30,13 @@ Read-only checks on October 16, 2026: all four public pages and `/thanks` return
 
 The class submission is [draft PR #42](https://github.com/kenxle/columbia-startup-studio-fall-2026/pull/42), in `teams/zeroone/hw5-pages-demand-mvp/`. It contains this README, the demand strategy, the MVP definition, the evidence mapping, and the Academy status note. After the account confirmations below are recorded, mark the PR ready and paste its URL into Courseworks. The slides set the HW5 deadline at the start of class on October 16, 2026, at 1:10 PM America/New_York.
 
-Remaining account actions: confirm the GA4 key-event setting, start Analytics Academy 101 and 102 and record who started them, and submit the PR URL in Courseworks. These actions are not recorded as completed.
+Remaining account actions:
+
+- **Yuval (@Yuval-Gerber):** confirm that `sign_up` is a GA4 key event and record the result.
+- **Charles (@ZhangchengCharles):** collect the team's Analytics Academy 101 and 102 start confirmations and update `analytics-academy.md` with the names and dates.
+- **Charles (@ZhangchengCharles):** after the confirmations are recorded, mark PR #42 ready and paste its link into Courseworks.
+
+These actions are pending.
 
 ## Sources
 
