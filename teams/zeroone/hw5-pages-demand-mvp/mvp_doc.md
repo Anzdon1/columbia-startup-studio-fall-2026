@@ -32,18 +32,17 @@ For the first pilot, the team will recruit a group and help members join. The ma
 
 ## Roles: who builds what, who owns traffic
 
-The following names reflect the work and ownership recorded in the team's bulletin and architecture. They identify current delivery responsibilities; they do not assign new work to teammates.
+The build plan for the October 23 MVP divides the work into five parts. Each owner takes their part through implementation, tests, and fixes, then works with Charles to verify the complete flow.
 
-| Owner | Responsibility |
-|---|---|
-| Yuval Gerber | Application implementation: calls, answers, results, scoreboard, groups, invitations, profiles, and account settings. Server deployment, landing-page implementation, analytics configuration, and the live application walkthrough. |
-| Elad Tisch | Hosted Supabase migrations and database checks, authentication configuration and email setup, and Cloudflare DNS. |
-| Zhangcheng Kang (Charles) | MVP planning, requirements review, README, integration, and the course submission PR. |
-| Shiyu Zhou (Emily) | Traffic and content: communities, the three published promotional items, tagged links, the blog plan, and feedback review. |
+| Owner | MVP build responsibility | Delivery check |
+|---|---|---|
+| Yuval Gerber | Calls and results: create and publish a call, enforce the closing time, accept one answer per member, record the result, and show who called it. | A call runs from creation to the correct-answer scoreboard; late and duplicate answers are rejected. |
+| Elad Tisch | Accounts and infrastructure: signup, sign-in, confirmation email, database permissions, hosted migrations, DNS, and deployment support. | Members can create accounts and sign in; private data stays protected; hosted configuration supports the pilot. |
+| Aviv Pinto | Groups and invitations: create a private group, share and accept invitations, manage membership and roles, and handle leaving or removing a member. | Two accounts can join the same group; manager permissions and access after departure work correctly. |
+| Zhangcheng Kang (Charles) | Integration and release verification: connect the account, group, and call flows; run the complete user journey; coordinate fixes; prepare demo data and the five-minute MVP demo. | The deployed app completes signup, joining, answering, result recording, and scoreboard updates in one verified walkthrough. |
+| Shiyu Zhou (Emily) | Traffic and pilot operations: recruit a friend group, help members join, run manual reminders, collect feedback, and review visits and signups with Yuval. | A pilot group completes a call; feedback records whether members return for the result and want another call. |
 
-Aviv Pinto is a team member. A build responsibility for Aviv is not yet recorded in the team ownership table.
-
-Each role can use AI agents for implementation, tests, and documentation. The human responsible for each role reviews the output and verifies the result. The shared workflow supports coordination; one coordinator handles Git changes in each shared checkout.
+Each owner can use AI agents for implementation, tests, and documentation. The owner reviews the output and verifies their delivery check. One coordinator handles Git changes in each shared checkout.
 
 ## Delivery and verification
 
