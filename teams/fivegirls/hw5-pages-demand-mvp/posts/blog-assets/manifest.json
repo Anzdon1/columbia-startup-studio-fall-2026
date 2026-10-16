@@ -1,0 +1,24 @@
+{
+  "owner": "Zheli Chen",
+  "createdOn": "2026-10-16",
+  "tool": "built-in image_gen",
+  "visualReference": "https://www.anthropic.com/engineering/managed-agents",
+  "referenceUse": "High-level visual direction only; original conceptual illustrations, no source artwork copied.",
+  "assets": [
+    {
+      "file": "restroom-ready-pin-editorial.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2110797,
+      "sha256": "c3b4a6111f3ec0d3fb8f3da9a9ff6f780c7bd260a6459fd702456bd5858ef52d"
+    },
+    {
+      "file": "restroom-ready-private-public-editorial.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2007849,
+      "sha256": "3d594e1b64fcfc8081217121a2760381b83e78edbbcb493a5061c88f85e401d1"
+    }
+  ],
+  "factualBoundary": "Concept illustrations, not photographs, inspected venue facts, real geography, or actual account data."
+}
