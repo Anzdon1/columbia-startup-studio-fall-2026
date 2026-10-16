@@ -1,7 +1,7 @@
 # Brand Position: Gable
 
 **Team Name:** Aditya
-**Date:** October 9, 2026
+**Date:** October 9, 2026 (updated October 15 after persona review)
 
 **Purpose:** This document captures Gable's thesis, identity, and canonical language so that everything we build speaks with one voice: landing page, copy, features, pitch. It is written for agents as much as for us, and we update it as discovery continues.
 
@@ -19,7 +19,7 @@ Students searching for housing in NYC lose weeks to two things: chasing agents a
 
 ## Positioning Statement
 
-> **For students and recent grads looking for an apartment, sublet, or room in NYC, Gable is the housing search app that handles the back-and-forth of setting up viewings and shows you what other students say about a place and who's behind a listing. It coordinates with agents and listers for you and is built on real students' accounts, not marketing photos.**
+> **For students and recent grads looking for an apartment, sublet, or room in NYC, Gable is the housing search app that handles the back-and-forth of setting up viewings and shows you what other students say about a place, who's behind a listing, and whether they actually reply. It coordinates with agents and listers for you and is built on real students' accounts, not marketing photos.**
 
 ---
 
@@ -27,7 +27,7 @@ Students searching for housing in NYC lose weeks to two things: chasing agents a
 
 - **Your time is the product.** Every feature should remove a message, a phone call, or a wasted tour. If a feature adds steps for the renter, it needs a very good reason.
 
-- **Renters first.** We work for the person searching, not for brokers or landlords. When their interests conflict, we side with the renter.
+- **Students on both sides.** We work for students, whether they're looking for a place or subletting their own room, not for brokers or big landlords. If a feature only helps a broker, it waits.
 
 ---
 
@@ -35,7 +35,24 @@ Students searching for housing in NYC lose weeks to two things: chasing agents a
 
 > **Gable is made for a student or recent grad who has a semester start, internship, or lease date coming up. We do the heavy lifting for coordinating and trust so you don't have to.**
 
-They're organized and willing to put in the work, and they already have. They've toured place after place and messaged dozens of people. What they're missing isn't listings. It's someone to handle the coordination and a way to tell what's real.
+They're organized and willing to put in the work, and they already have. They've toured place after place and messaged dozens of people. What they're missing isn't listings. It's someone to handle the coordination and a way to tell what's real. Some of them can't even be in NYC to tour, like an intern flying in for the summer, so the trust part has to work without a visit.
+
+We also serve the other side: a student subletting their room while they're away, who wants a few real students with the right dates instead of 40 random messages.
+
+---
+
+## What We Check (and What We Don't)
+
+The personas kept asking some version of "ok, but what do you actually check?" So here it is plainly:
+
+- **Who can reach you.** Only students who've signed in with a school email can message a lister or apply for a room, and their dates show up front. No open inbox.
+- **Who's behind a listing.** Every lister signs in with a school email. That proves they're a student. It doesn't prove they're allowed to sublet, so we'll also ask for proof they're on the lease before a listing gets a checked label.
+- **Whether they reply.** Every listing shows when the lister was last active and how fast they usually answer.
+- **Listing details.** Things like pets, laundry, and dates are marked as either confirmed or just claimed by the lister, so "pet friendly" can't quietly mean cats only.
+- **Money.** Deposits and rent go through Gable, never Zelle, wire, or Venmo. A lister asking to be paid off-platform gets flagged.
+- **What we don't do.** We don't inspect apartments and we can't promise a place is perfect. If a listing turns out to be fake, the deposit comes back, because it never left Gable.
+
+Search should also handle the basics people kept bringing up: exact dates, number of rooms (for people looking with a friend), and furnished or not.
 
 ---
 
@@ -49,6 +66,8 @@ Phrases we use repeatedly, taken from what interviewees actually said:
 - **"Know what's real before you go, and before you pay"** (from Marcus's "I wasn't even sure were real," Jasmine's worry about sending money first, and Emma's misleading photos)
 - **"From students who've lived there"** (how we describe reviews; specific about the source)
 - **"Somebody who knows somebody"** (from Jasmine: "I'd rather rent from somebody who knows somebody I know…"; use when describing school and mutual connections)
+- **"Pay through Gable, never Zelle"** (from Reddit: "Triply true for Zelle, which has zero protections.")
+- **"Cover your rent while you're away"** (for students subletting their room; never "earn income from your space," since a sublet isn't a side business)
 - **"Figuring out which ones are real"** (from Reddit: "the hardest part of subletting in nyc was never finding listings, it's figuring out which ones are real")
 
 ---
@@ -127,4 +146,5 @@ From the in-class template, filled in from our interviews.
 - **Which promise leads?** Trust came up in 4 of 5 interviews; coordination came up in 1 (Emma) but at the highest intensity (9/10). Next week's landing page should test both: one headline on coordination, one on trust. Let signups decide which leads.
 - **Agents are the other side of coordination.** We haven't talked to a single leasing agent or landlord. Whether they'll respond to coordinated requests is the biggest unknown in the product.
 - **Reviews need volume.** Students move about once a year and rarely write reviews. We need a plan to seed reviews for specific buildings before reviews can carry trust. Check existing NYC apartment-review apps before building this part.
+- **Protecting students who sublet their room.** The personas pointed out we don't say what happens if a subletter stops paying or won't leave at the end of the term. Rent going through Gable covers part of it, but we need a real plan (and a simple sublease agreement) before we promise anything.
 - **Listing source.** Coordination can work on top of listings from other sites, but sublets from students may need to be posted directly. This connects to the team's open question about aggregation vs. our own database and the legality of scraping.
