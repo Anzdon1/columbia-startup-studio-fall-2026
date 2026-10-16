@@ -19,7 +19,7 @@ Students searching for housing in NYC lose weeks to two things: chasing agents a
 
 ## Positioning Statement
 
-> **For students and recent grads looking for an apartment, sublet, or room in NYC, Gable is the housing search app that handles the back-and-forth of setting up viewings and shows you what other students say about a place and who's behind a listing. Tt coordinates with agents and listers for you and is built on real students' accounts, not marketing photos.**
+> **For students and recent grads looking for an apartment, sublet, or room in NYC, Gable is the housing search app that handles the back-and-forth of setting up viewings and shows you what other students say about a place and who's behind a listing. It coordinates with agents and listers for you and is built on real students' accounts, not marketing photos.**
 
 ---
 
@@ -49,6 +49,7 @@ Phrases we use repeatedly, taken from what interviewees actually said:
 - **"Know what's real before you go, and before you pay"** (from Marcus's "I wasn't even sure were real," Jasmine's worry about sending money first, and Emma's misleading photos)
 - **"From students who've lived there"** (how we describe reviews; specific about the source)
 - **"Somebody who knows somebody"** (from Jasmine: "I'd rather rent from somebody who knows somebody I know…"; use when describing school and mutual connections)
+- **"Figuring out which ones are real"** (from Reddit: "the hardest part of subletting in nyc was never finding listings, it's figuring out which ones are real")
 
 ---
 
@@ -93,6 +94,16 @@ Phrases we use repeatedly, taken from what interviewees actually said:
 4. "I'd rather rent from somebody who knows somebody I know than just send money to a random person online." — Jasmine, undergraduate who needed a summer sublet in Manhattan for an internship; found one through a mutual connection.
 5. "I think I'd rather be, like, not scammed than to know if that community is, like, an ideal place for me." — Ruby, first-generation student in campus housing, on what matters most in a housing platform.
 6. "No. I didn't look at a single other place." — Tina, subleasing from her cousin. Our negative case: a trusted personal connection removes the problem.
+
+### From Reddit
+
+| # | Quote | What it tells us |
+|---|---|---|
+| 1 | "the hardest part of subletting in nyc was never finding listings, it's figuring out which ones are real" r/NYCapartments, Apr 2026 ([link](https://www.reddit.com/r/NYCapartments/comments/1o4bou1/_/oe8t3vv/)) | Trust, not volume, is the real problem with sublets. |
+| 2 | "my question is how do you arrange that over the internet without being at risk of being scammed?" r/Scams, Mar 2026 ([link](https://www.reddit.com/r/Scams/comments/1rndpst/_/o9646h6/)) | Remote renters can't check a place in person, so they need another way to know it's real. |
+| 3 | "they require your uni to join the group" r/columbia, May 2024 ([link](https://www.reddit.com/r/columbia/comments/1cpwev9/_/l3nugjb/)) | Students already trust school-gated groups, which supports school-email verification. |
+| 4 | "Triply true for Zelle, which has zero protections." r/Scams, Aug 2026 ([link](https://www.reddit.com/r/Scams/comments/1vk68ol/_/p2r3sko/)) | Paying off-platform with Zelle leaves renters with no protection. |
+| 5 | "We get a new one every year." r/NYCapartments, Oct 2025 ([link](https://www.reddit.com/r/NYCapartments/comments/1o4bou1/_/nj17hmc/)) | Renters are tired of new listing aggregators, so Gable can't pitch itself as one. |
 
 ---
 
