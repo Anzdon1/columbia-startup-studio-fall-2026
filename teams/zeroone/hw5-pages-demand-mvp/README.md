@@ -19,9 +19,4 @@ CallIt gives a private group one shared record of its predictions and results. T
 
 ## Analytics Academy
 
-Emily (Shiyu Zhou) has started Analytics Academy 101 and 102. Charles confirmed this on her behalf on October 16, 2026.
-
-## Remaining submission actions
-
-- **@Yuval-Gerber:** confirm that `sign_up` is a GA4 key event and record the result.
-- **@ZhangchengCharles:** paste the link to [PR #42](https://github.com/kenxle/columbia-startup-studio-fall-2026/pull/42), which is ready for review, into Courseworks.
+Emily (Shiyu Zhou) has started Analytics Academy 101 and 102.
