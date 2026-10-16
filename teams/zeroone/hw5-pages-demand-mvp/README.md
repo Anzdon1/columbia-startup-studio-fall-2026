@@ -28,7 +28,7 @@ The analytics guide records GA4 on the marketing pages, a `sign_up` event from t
 
 Read-only checks on October 16, 2026: all four public pages and `/thanks` returned HTTP 200. Each page loaded a bundle containing GA4 ID `G-HPKQ2CBQT7` and the `sign_up` event code. This checks the deployed code, not GA4 event receipt or the key-event setting. Earlier signup and browser checks are recorded in the team's bulletin.
 
-The class submission folder is `teams/zeroone/hw5-pages-demand-mvp/` in the class repository. It contains this README, the demand strategy, the MVP definition, the evidence mapping, and the Academy status note. Open the submission PR and paste its URL into Courseworks. The slides set the HW5 deadline at the start of class on October 16, 2026, at 1:10 PM America/New_York.
+The class submission is [draft PR #42](https://github.com/kenxle/columbia-startup-studio-fall-2026/pull/42), in `teams/zeroone/hw5-pages-demand-mvp/`. It contains this README, the demand strategy, the MVP definition, the evidence mapping, and the Academy status note. After the account confirmations below are recorded, mark the PR ready and paste its URL into Courseworks. The slides set the HW5 deadline at the start of class on October 16, 2026, at 1:10 PM America/New_York.
 
 Remaining account actions: confirm the GA4 key-event setting, start Analytics Academy 101 and 102 and record who started them, and submit the PR URL in Courseworks. These actions are not recorded as completed.
 
