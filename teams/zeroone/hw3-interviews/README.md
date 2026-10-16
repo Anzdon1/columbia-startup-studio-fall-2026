@@ -1,6 +1,6 @@
 # Interview materials
 
-The files follow the original Google Doc tabs.
+The files follow the original Google Doc.
 
 - [Group Points](group-points/): interview script and six interviews.
 - [Local Activities](local-activities/): interview script and five interviews.
