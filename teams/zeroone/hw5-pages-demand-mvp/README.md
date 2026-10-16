@@ -19,4 +19,4 @@ CallIt gives a private group one shared record of its predictions and results. T
 
 ## Analytics Academy
 
-Emily (Shiyu Zhou) has started Analytics Academy 101 and 102.
+Yuval Gerber has started Analytics Academy 101 and 102.
