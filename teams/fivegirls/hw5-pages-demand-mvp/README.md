@@ -22,23 +22,16 @@ Restroom Ready helps people choose a restroom in NYC before making the trip. The
 | Thank-you | [Thank-you](https://nyc.imfinethanku.me/thank-you/) | Confirm a successful email signup. Opening this URL alone does not count as a signup. |
 | Privacy | [Privacy](https://nyc.imfinethanku.me/privacy/) | Explain waitlist, account, contribution, and Analytics data. |
 
-The same pages are also published at [restroom-ready-nyc.clcii.chatgpt.site](https://restroom-ready-nyc.clcii.chatgpt.site/). Campaigns use the team domain above so our traffic has a consistent destination.
-
 The full [finder](https://nyc.imfinethanku.me/find/) is a separate team-access page. Its shared access gate is separate from Google Sign-in for account-owned contributions.
 
 ## Submission files
 
 - [Demand strategy](demand_strategy.md): audiences, named owners, campaign links, Facebook and X outreach, the published blog, and measurement.
 - [MVP document](mvp_doc.md): core flow, shipped scope, cuts, manual work, stack, responsibilities, and the October 23 demo.
-- [X post](https://x.com/88boiwe0n/status/2111142704390496429) and [saved copy](posts/x.md): published October 16 at 1:10 PM EDT with a tagged entry-and-route link.
-- [New York&People Facebook group](posts/new_york_and_people.md): Zheli reports that the post is published; its permalink and actual landing-page link are still needed.
-- [Blog source](posts/blog.md) and [published Medium article](https://medium.com/@zc2856/building-restroom-ready-making-a-restroom-pin-useful-f690320d261e).
-
-The earlier Reddit attempts, Xiaohongshu draft, and video materials are retained outside the current Facebook, X, and blog campaign. Filtered Reddit submissions do not establish public reach.
 
 ## Analytics and learning
 
-Google Analytics measurement ID **`G-YJG2N05KY9`** is connected to the seven public routes above and the full finder after team access is granted, on both sites. Actual page visits were observed in Realtime. Successful waitlist submissions trigger **`generate_lead`**, configured as a key event. That event counts completed successful submissions; distinct stored email records are needed to count unique leads. Demo page visits are tracked, but simulated demo actions do not send action events. Test visits used to verify the setup are not customer demand.
+Google Analytics measurement ID **`G-YJG2N05KY9`** is connected to the seven public routes above and the full finder after team access is granted, on the team domain. Actual page visits were observed in Realtime. Successful waitlist submissions trigger **`generate_lead`**, configured as a key event. That event counts completed successful submissions; distinct stored email records are needed to count unique leads. Demo page visits are tracked, but simulated demo actions do not send action events. Test visits used to verify the setup are not customer demand.
 
 Pageviews use approved routes and lowercase UTM labels. Emails, Firebase account IDs, private notes, search text, and precise coordinates are excluded. Automatic outbound and form tracking is disabled. The product repository records the [actual setup and verification](https://github.com/imnotmomo/nyc-restroom/blob/main/docs/features/google-analytics.md).
 
