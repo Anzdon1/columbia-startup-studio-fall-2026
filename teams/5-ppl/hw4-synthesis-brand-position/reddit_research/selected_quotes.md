@@ -1,43 +1,90 @@
-# Selected Reddit quotes
+# Selected Reddit quotes — UnlockDrill
 
-Exact excerpts from original posts; R1-Q1 and R1-Q2 are the same author, not two participants. These are not UnlockDrill testimonials.
+**Prepared:** October 17, 2026. All excerpts checked against the manually saved thread files. Original spelling and punctuation preserved; each excerpt is contiguous. These are research quotes, not UnlockDrill testimonials.
 
-## R1-Q1
+## Five brand-source quotes
 
-> like i sit down to study and somehow end up scrolling on my phone every 2 minutes
+These quotes are used in `summary.md` under “For your brand position” and its corresponding themes. The five brand excerpts are now included in [brand_position.md](../brand_position.md); Q01–Q06 are included in the persona files below. The team approved these selections on October 17.
 
-Source: [R1, original post](https://www.reddit.com/r/Sat/comments/1s9xuk7/is_anyone_else_studying_for_the_sat_but_literally/).
+### Q01 — Problem statement / target identity; Maya
 
-Used in: Brand problem statement; Maya. See [brand position](../brand_position.md) and [personas](../personas/README.md).
+> The hardest part is starting again. Every time I try to study, it feels overwhelming because I know how much I’ve missed.
 
-## R1-Q2
+[Q01: r/Sat, 2026-04, post](https://www.reddit.com/r/Sat/comments/1srrdgp/trying_to_study_for_the_sat_after_a_really_rough/)
 
-> but also i feel like that might just make my attention span worse idk
+**Context:** SAT student restarting after personal difficulties and missed schooling; not just a phone-distraction account.
+**Local source:** `../reddit_corpus/raw/thread_Sat_1srrdgp.json`; original post, field `selftext`.
+**Application:** Acknowledge the difficulty of restarting; do not imply all delays are caused by phones.
+**Used in:** Problem statement / target identity; Maya.
 
-Source: [R1, original post](https://www.reddit.com/r/Sat/comments/1s9xuk7/is_anyone_else_studying_for_the_sat_but_literally/).
+### Q02 — Problem statement; Maya
 
-Used in: Brand finite-experience guardrail; Casey. See [brand position](../brand_position.md) and [personas](../personas/README.md).
+> I learned the hard way that I couldn’t tell when 10 minutes turned into 20 umm or even an hour of scrolling, lol.
 
-## R2-Q1
+[Q02: r/GetStudying, 2026-04, post](https://www.reddit.com/r/GetStudying/comments/1serr7p/what_do_you_guys_do_in_study_breaks/)
 
-> I make myself stop and do the problem and read the comments.
+**Context:** Original poster describing study breaks; general study context, not confirmed SAT.
+**Local source:** `../reddit_corpus/raw/thread_GetStudying_1serr7p.json`; original post, field `selftext`.
+**Application:** Describe breaks expanding into scrolling. This source is not confirmed SAT.
+**Used in:** Problem statement; Maya.
 
-Source: [R2, original post](https://www.reddit.com/r/Sat/comments/k3og1a/scrolling_on_rsat_for_too_long/).
+### Q03 — Objection handling and control language; Jordan
 
-Used in: Brand mechanism; Maya and Casey. See [brand position](../brand_position.md) and [personas](../personas/README.md).
+> Also, I have to be on call all day, so I can't turn off my phone completely.
 
-## R3-Q1
+[Q03: r/GetStudying, 2026-04, post](https://www.reddit.com/r/GetStudying/comments/1sjwdg0/any_tips_on_how_to_break_a_phone_addiction_its/)
 
-> What usually kills it for me isn’t the block itself — it’s how easy it is to hit Ignore Limit, open Safari, or just turn the whole thing off at 11pm.
+**Context:** General study context; need to remain reachable.
+**Local source:** `../reddit_corpus/raw/thread_GetStudying_1sjwdg0.json`; original post, field `selftext`.
+**Application:** Explain essential access. This is not a demand for any particular skip design.
+**Used in:** Objection handling and control language; Jordan.
 
-Source: [R3, original post](https://www.reddit.com/r/digitalminimalism/comments/1wmj8j7/when_soft_mode_fails_for_you_whats_the_escape/).
+### Q04 — Objection handling and timing controls; Jordan
 
-Used in: Brand friction/control tension; Jordan. See [brand position](../brand_position.md) and [personas](../personas/README.md).
+> And I'd last maybe 3 days before I'd undo everything in frustration.
 
-## R4-Q1
+[Q04: r/digitalminimalism, 2026-02, post](https://www.reddit.com/r/digitalminimalism/comments/1r2qgd5/the_thing_that_finally_clicked_about_my_phone/)
 
-> I only need to work on math but don’t know what to use to get started.
+**Context:** Immediately follows a description of strict blocker settings and deleting apps. General digital-use context.
+**Local source:** `../reddit_corpus/raw/thread_digitalminimalism_1r2qgd5.json`; original post, field `selftext`.
+**Application:** Show why overly restrictive experiences may be abandoned. Preserve the strict-blocking context.
+**Used in:** Objection handling and timing controls; Jordan.
 
-Source: [R4, original post](https://www.reddit.com/r/Sat/comments/1bfkrz9/how_to_start_studying/).
+### Q05 — Learning-value language; Casey
 
-Used in: Brand scope boundary: resource discovery is separate. See [brand position](../brand_position.md) and [personas](../personas/README.md).
+> Measure progress by whether those same mistakes are disappearing, not by hours studied or the number of full tests completed.
+
+[Q05: r/Sat, 2026-07, comment](https://www.reddit.com/r/Sat/comments/1v9yhkb/how_much_can_i_realistically_improve_a_1300_in_30/p0nc21u/)
+
+**Context:** Advice from a commenter, not a measured result or a customer testimonial.
+**Local source:** `../reddit_corpus/raw/thread_Sat_1v9yhkb.json`; comment `p0nc21u`, field `body`.
+**Application:** Explain relevant feedback and assess understanding. This is commenter advice, not measured effectiveness.
+**Used in:** Learning-value language; Casey.
+
+## Additional persona quote
+
+### Q06 — Casey persona: worthwhile practice
+
+> I mean the point of my post was asking how to study smarter not necessarily harder 😭
+
+[Q06: r/Sat, 2026-06, comment](https://www.reddit.com/r/Sat/comments/1tzu7bl/how_does_one_study_smart_for_the_sat_to_reach_a/oqdnr7u/)
+
+**Context:** Original poster responding to advice about studying eight hours per day.
+**Local source:** `../reddit_corpus/raw/thread_Sat_1tzu7bl.json`; comment `oqdnr7u`, field `body`.
+**Application:** Preserve the objection to being told simply to study longer.
+**Used in:** Casey persona: worthwhile practice.
+
+## Persona allocation
+
+- **Maya:** Q01 and Q02.
+- **Jordan:** Q03 and Q04.
+- **Casey:** Q05 and Q06.
+
+These pairs are already referenced in the persona recommendations in `summary.md`. The excerpts and links are now integrated in [Maya](../personas/maya.md), [Jordan](../personas/jordan.md), and [Casey](../personas/casey.md). [Companion product PR #21](https://github.com/Tommylilinfeng/unlockdrill/pull/21) synchronizes the installed copies. Fresh runs remain blocked on Claude Code sign-in.
+
+## Before submission
+
+- Team quote selection review completed October 17.
+- Integration into the class documents completed; companion PR #21 contains the product-repo synchronization.
+- Keep separate the original post, comments, and this report’s interpretations.
+- Do not reuse the previous five-link scan’s quotes without checking their original sources; they are not automatically part of this 30-thread corpus.

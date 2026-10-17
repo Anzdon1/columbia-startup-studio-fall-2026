@@ -4,24 +4,28 @@
 
 **Framework selected for the proposed setup:** [OpenSpec](https://github.com/Fission-AI/OpenSpec), because explicit behavior scenarios help resolve prompt timing, skip, pause, and repeat-trigger behavior before implementation.
 
-## Status
+## Verified repository setup — October 17
 
-This homework includes the proposed framework and a copy of the product AGENTS.md below. No product repository, framework installation, or runnable application is claimed. The [draft product documents](product-docs/) are ready to copy into the future product repo's `docs/` folder. This class-submission folder is not that product repository.
+**Product repo:** [Tommylilinfeng/unlockdrill](https://github.com/Tommylilinfeng/unlockdrill). Inspected commit `4597dd391ed123b949c890589c5bb37750d7bcab`.
 
-## Proposed layout
+- [AGENTS.md](https://github.com/Tommylilinfeng/unlockdrill/blob/4597dd391ed123b949c890589c5bb37750d7bcab/AGENTS.md) exists at the root.
+- [Brand position](https://github.com/Tommylilinfeng/unlockdrill/blob/4597dd391ed123b949c890589c5bb37750d7bcab/docs/brand_position.md) and [style guide](https://github.com/Tommylilinfeng/unlockdrill/blob/4597dd391ed123b949c890589c5bb37750d7bcab/docs/style_guide.md) exist in `docs/`.
+- Maya, Jordan, and Casey are installed in `.claude/agents/`. Companion PR #21 synchronizes the approved quote evidence and includes a review runbook.
+- The React/TypeScript/Vite app, question validation script, and GitHub Pages workflow exist.
+- OpenSpec was not initialized on the inspected main commit. [Companion PR #21](https://github.com/Tommylilinfeng/unlockdrill/pull/21) initializes version 1.14.3 with the spec-driven schema, project constraints, and Claude commands/skills.
+- The inspected main AGENTS.md had a stale run section. Companion PR #21 corrects it; the copy below is the updated branch version.
 
-```text
-AGENTS.md
-docs/brand_position.md
-docs/style_guide.md
-.claude/agents/persona-maya.md
-.claude/agents/persona-jordan.md
-.claude/agents/persona-casey.md
-assets/logo/
-openspec/
-src/
-tests/
+## Actual commands
+
+```bash
+npm ci
+npm run dev
+npm run build
+npm run lint
+node scripts/validate-questions.mjs
 ```
+
+Validation on the companion branch: `npm run build` passed; lint completed with four existing warnings in unchanged application files; all 25 questions passed validation. The validator needed a filesystem-URL conversion fix for paths containing spaces, included in that PR. Real-device Shortcuts testing remains open in [issue #3](https://github.com/Tommylilinfeng/unlockdrill/issues/3). The team's October 17 phone check concerns page/logo appearance and does not close that integration test.
 
 ## Feature acceptance scenarios
 
@@ -46,7 +50,7 @@ Read docs/brand_position.md, docs/style_guide.md, relevant research, and the cur
 Preserve interview IDs and exact quotations. Do not invent testimonials, score gains, persona facts, supported devices, or customer validation. Keep ErrorJournal and tutoring evidence separate from evidence for app-triggered practice.
 
 ## Feature workflow
-Use OpenSpec after installation. Write the proposal, behavior scenarios, design, and task list; resolve platform uncertainty; implement a small change; verify the scenarios; document what changed and what remains uncertain.
+Use the initialized OpenSpec workflow. Write the proposal, behavior scenarios, design, and task list; resolve platform uncertainty; implement a small change; verify the scenarios; document what changed and what remains uncertain.
 
 ## Product rules
 Users choose the apps and timing. Keep skip and pause visible. Respect frequency limits. Avoid repeated-trigger loops. Never require a correct answer in the proposed default flow. Provide a safe exit on errors.
@@ -61,7 +65,7 @@ Use the agreed tokens and logo assets. Maintain readable text, keyboard access, 
 Collect only data needed for the agreed feature and explain collection. Keep raw interview notes and participant identities out of public builds. Do not commit secrets.
 
 ## Run and verify
-No application stack or run commands are configured yet. After setup, document exact install, development, build, and test commands here. Do not invent commands or report unrun checks as passing.
+The app uses React, TypeScript, and Vite. Install with `npm ci`; start with `npm run dev`; type-check and build with `npm run build`; lint with `npm run lint`; validate question banks with `node scripts/validate-questions.mjs`. Optional services are configured through `.env.example`. Never commit `.env` or raw interview files. Report checks actually run and do not infer device behavior from a successful web build.
 
 ## Review and handoff
 Test prompt eligibility, skip, pause, repeated opening, answer feedback, and error exit. Summarize behavior changes, checks actually run, and remaining limits in the pull request. Team members own final product and release decisions.
@@ -69,4 +73,4 @@ Test prompt eligibility, skip, pause, repeated opening, answer feedback, and err
 
 ## Remaining setup
 
-Create the product repository, install the selected workflow, copy the documents and persona files, and document the actual install/run/test commands after the platform is selected. No commands have been invented to suggest that a scaffold already runs.
+Review and merge companion PR #21 to land the prepared setup and evidence updates. Fresh installed-persona runs are blocked because `claude auth status` returned `loggedIn: false`. After sign-in, follow the included persona-review runbook and preserve the actual outputs. Real-device automation testing remains separate.

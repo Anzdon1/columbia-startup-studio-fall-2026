@@ -17,3 +17,7 @@ Round-one concepts, each with a hero and supporting section. Open each HTML file
 - [Forest](https://www.forestapp.cc/): a calm focus metaphor.
 
 These are AI suggestions for team review. The set varies color and some typography, while sharing much of its layout; it is an initial exploration rather than a completed wide-ranging design process. Keep/kill feedback, more distinct follow-up layouts, finalist selection, and phone review remain outstanding.
+
+## Final direction — October 17
+
+The product has moved to an answer-sheet motif with fillable bubbles, forest-green print, graphite text, cool near-white background, and Atkinson Hyperlegible Next. The team approved this design and the existing open-U logo and reported checking them on a phone. See the updated [style guide](../style_guide.md). Earlier concepts remain exploration history; no intermediate keep/kill notes have been invented.

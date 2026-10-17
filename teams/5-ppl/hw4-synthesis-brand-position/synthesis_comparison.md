@@ -1,7 +1,8 @@
 # UnlockDrill: synthesis comparison
 
 **Team:** 5 PPL
-**Date:** October 9, 2026
+**Original submission:** October 9, 2026\
+**Parts A and C revised:** October 17, 2026
 **Source:** [HW3 interviews](../hw3-interviews/interviews.md)
 
 ## Evidence and interview IDs
@@ -28,33 +29,102 @@ Source: user-supplied raw notes and snapshots. IDs below remain consistent throu
 Scope: 12 interview accounts, not 12 validated customers. Some notes are summaries rather than transcripts. Ages are largely unreported. Dates are mixed or missing; do not assign October 2 to every account.
 
 
-# Part A: existing team observations
+# Part A: revised team synthesis
 
-**Authorship boundary:** The independent pre-AI synthesis was not supplied. This section reconstructs the team's existing HW3 snapshots; it is not represented as a pre-AI synthesis written by the team. The team's independent five-quote selection remains outstanding.
+**Revision date:** October 17, 2026.\
+**Authorship and timing:** The team supplied this revised synthesis and its five-quote decisions on October 17, disclosing that the draft was prepared with Claude assistance from the raw notes. Codex organized it and corrected evidence overstatements. The earlier material consists of HW3 interview notes and per-interview snapshots; no independent pre-AI cross-interview synthesis has been supplied. This revision does not retroactively satisfy the original pre-AI sequence.
 
-## What the team had observed
+## Key patterns
 
-Editorial reconstruction of supplied snapshots. This is not an independently written, pre-AI synthesis.
+### 1. Starting and sustaining practice is a recurring barrier
 
-### Existing human interpretation
+Our clearest UnlockDrill-related pattern is difficulty beginning or sustaining practice, with the phone often winning instead. Mira (I03) describes difficulty sitting down to start. Laya (I04) describes doomscrolling and ignoring Screen Time. Alicia (I07) describes finishing homework, watching videos, and then going to bed instead of practicing. Participant B (I10) describes “fake studying,” interrupted by checking the phone. The friend of a friend (I02) names dedicating time and staying focused.
 
-The supplied snapshots distinguish several problems. Mira’s takeaway identifies starting as the barrier rather than material. Laya’s notes emphasize bypassing limits and skepticism about another blocker. Alicia’s snapshot confirms difficulty starting and phone distraction, but explicitly leaves the effectiveness of pre-app questions untested.
+The cousin (I11) also names spending time on practice exams, but separately describes learning concepts and getting help; the raw response does not establish phone distraction as the cause. Participant A (I09) reports weekend-only study because weekdays felt exhausting. These accounts support looking beyond a shortage of materials, but not claiming that material or explanation needs are unimportant across the whole sample. I01 explicitly names finding and organizing materials, and I12 describes limited access to help.
 
-The SAT tutoring snapshots describe access, organization, confidence, and feedback. I01 names finding and organizing materials before delayed tutor review. I02 identifies time and focus first; embarrassment matters when asking for help. These findings should not be rewritten as proof that everyone wants UnlockDrill.
+### 2. Short sessions can feel more manageable than long planned blocks
 
-The ErrorJournal snapshots describe a separate difficulty: reading the right answer does not establish understanding. I05, I08, I09, and I10 describe recurring mistakes; I06 questions whether students can accurately explain their own errors. These observations may inform future question selection but do not justify adding a full error journal to the first version.
+Alicia (I07) says a couple of questions feels easier than sitting down for an hour. Participant B (I10) recalls the best sessions being 10–15-minute gaps on the bus or before practice, while four-hour weekend sessions felt terrible. Mira's raw notes (I03) record openness to something that makes the first five minutes easier.
 
-### Contradictions already present in the notes
+Participant A's weekend-only routine (I09) illustrates how practice can be concentrated into large blocks, but does not by itself prove that shorter sessions would work better. These are preferences and retrospective accounts, not measured evidence that one-question sessions improve learning.
 
-Laya’s failed limits suggest a need for stronger interruption, while Alicia would turn off an app that interrupts too often or prevents a necessary skip. Short practice feels manageable to Alicia and Participant B, but this does not establish that a single question produces durable learning.
+### 3. Wrong-answer review can stop before understanding improves
 
-### Surprises already recorded
+Darsh (I05) recognizes the correct answer and later repeats the mistake. Participant B (I10) describes looking at the answer and moving on. Sam (I08) sometimes remembers an answer without knowing whether he learned the concept. Participant A (I09) labels mistakes “careless” without identifying their cause and reports repeated algebra errors on a retake. Arya (I06) abandoned a mistake notebook and does not trust her ability to diagnose an error.
 
-Participant B describes a tutor’s value as accountability, not just explanations. I01 prioritizes finding material over reviewing wrong answers. I02’s barrier to help is embarrassment. These are distinct surprises with different design implications.
+Our interpretation is that logging or recognizing a wrong answer is not enough by itself. This is primarily evidence from the ErrorJournal interviews; it raises a learning-quality question for UnlockDrill without proving that the same people want app-opening practice prompts.
 
-### Required team addition
+## Contradictions and possible explanations
 
-The original independent synthesis was not provided. Before submitting, the team should insert its own pre-AI write-up, including its own five selected quotations and overall interpretation. The exact-quote set on page 5 belongs to the AI synthesis; it should not be relabeled as the team’s original work.
+### Effective interruption versus tolerable interruption
+
+Laya (I04) says Screen Time is too easy to ignore. Alicia (I07) says she would turn off a prompt that appears every time or prevents a necessary skip. The same intervention could therefore be too weak for one person and too intrusive for another.
+
+Our hypothesis is that the reason for opening the app matters. Alicia describes both opening Instagram without thinking and needing to check something. A question may fit the first situation and interfere with the second. This has not been tested. Different experiences with blockers may also matter: Laya reports skepticism after failed blockers. Alicia reports paid preparation, but the notes do not establish that payment or an approaching exam explains her tolerance, or provide a comparable motivation measure for Laya.
+
+### Access to help does not divide cleanly into paid and free prep
+
+The interviews describe different bottlenecks, but the evidence does not support our draft's proposed paid-versus-free split. The tutee (I01) reports about $2,000 in prep spending and a week-long wait for a tutor; the cousin (I11) reports about $1,000 in classes and materials alongside AI usage limits and incorrect answers. Neither belongs in a free-prep group.
+
+Among the two accounts reporting no prep spending, I02 obtained helpful free teacher support after overcoming embarrassment, while I12's free group program did not provide enough individual time. Our revised interpretation is that availability, capacity, confidence asking for help, and reliability may each change which problem feels most important. Payment alone does not explain the differences.
+
+## Surprises
+
+Before interviewing, we expected the main pain to be insufficient questions or explanations; the team confirmed this prior belief on October 17. What the interviews establish is that several people foregrounded time, focus, and getting started, while others did identify material or explanation needs.
+
+Participant B (I10) says the tutor helped because someone was there and studying could not be faked. This suggests accountability was part of the value, alongside the same participant's praise for the tutor's fast explanations; it does not establish that explanations had no value.
+
+Arya's difficulty identifying why an answer was wrong, together with Participant A's uninformative “careless” labels, makes us less confident that a self-tagging tool alone would prevent repeat mistakes.
+
+## Overall conclusion and uncertainties
+
+UnlockDrill should first test whether a tiny amount of practice at a moment otherwise spent scrolling can make starting easier. We favor a narrow first product over a complete study tool because starting and phone distraction recur in the relevant interviews, and shorter practice feels manageable to some participants. We have not established that this is the most common unprompted pain across all interviews: the interviews explored different ideas and used different prompts.
+
+The proposed question offers a concrete practice action rather than only a restriction. Whether that makes it more useful than an ignored limit remains a hypothesis.
+
+1. **Continued use:** Will students answer, dismiss, or disable the prompt?
+2. **Learning:** Will brief questions improve understanding, or only produce recognition of familiar answers?
+3. **Payment:** Would students or parents pay, and for what benefit? Existing prep spending does not establish willingness to pay for this product.
+4. **Evidence quality:** The sample is largely friends and family. Solution reactions followed a pitch, Participant B's interview included leading questions, and no participant has been observed using UnlockDrill.
+
+## Five selected quotes
+
+### 1. Starting and phone distraction — I03, Mira
+
+> The hardest part is just sitting down to start. Once I pick up my phone, hours are gone.
+
+**Source:** Kushaan → Idea 1 → Mira raw notes, explicitly labeled quote.\
+**Why we kept it:** It ties together the two core issues: starting is hard, and the phone takes over. It does not establish that our proposed intervention works.
+
+### 2. Ignoring existing limits — I04, Laya
+
+> Screen Time doesn't do anything for me. I just tap ignore and keep scrolling.
+
+**Source:** Kushaan → Idea 1 → Laya raw notes, explicitly labeled quote.\
+**Why we kept it:** It describes how an existing tool fails for this participant and sets the bar UnlockDrill must clear. Low-friction dismissal is our interpretation of her reported behavior, not a measured switching cost.
+
+### 3. Preserving control — I07, Alicia
+
+> But if it popped up every time or wouldn’t let me skip when I needed to check something, I’d probably turn it off.
+
+**Source:** Eason → Alicia → response to the product-concept question; exact excerpt.\
+**Why we kept it:** It provides the other side of Laya's account: a prompt that cannot be skipped may get disabled. This is conditional feedback after a pitch, not observed product use.
+
+### 4. Recognition versus understanding — I08, Sam
+
+> When I look back, sometimes I just remember the answer, so I don’t know if I actually learned it.
+
+**Source:** Eason → Sam → response about tracking wrong answers; exact excerpt.\
+**Why we kept it:** It is a warning that answering or recognizing a question is not the same as learning. This threatens the proposed value of brief practice, although the original interview concerned ErrorJournal.
+
+### 5. Accountability — I10, Participant B
+
+> But it helped, mostly because I couldn't ignore it. Like someone was there, so I couldn't fake it.
+
+**Source:** Linfeng → Participant B → response about the tutor's usefulness and cost; exact excerpt.\
+**Why we kept it:** It offers an additional explanation for why paid help worked: accountability, not only content. We need to test whether a product can provide any comparable support. The account is retrospective and comes from an interview with an early product pitch and leading questions.
+
+All five excerpts were checked against the [original HW3 notes](../hw3-interviews/interviews.md). Interview IDs follow the evidence table above.
 
 
 # Part B: AI synthesis
@@ -116,13 +186,15 @@ Overall read: the strongest case is for testing a small, voluntary practice inte
 
 # Part C: comparison
 
-## Comparison and quote audit
+**Comparison basis:** Team-supplied reflection on October 17, organized with editing assistance. This compares revised Part A with the preserved Part B; it is not a comparison of independent pre-AI work.
 
-AI-drafted comparison for team review. It compares supplied snapshots with this synthesis, not an unavailable independent Part A document.
+Part B explains several distinctions more clearly than our initial draft. It separates help bottlenecks into booking and organization (I01), embarrassment (I02), AI limits and reliability (I11), and group capacity (I12), whereas our initial paid-versus-free split incorrectly classified two participants who had paid for preparation. It also distinguishes strong evidence of phone distraction from much narrower evidence for our particular solution: only I07 directly reacted to the pre-app question concept. Part B strengthens the friction discussion by adding I10's concern about an app becoming a chore, identifies the tired starter, blocker skeptic, and purposeful reviewer as working segments, and highlights a contradiction we missed between Darsh's willingness to tag mistakes and Arya's distrust of self-diagnosis. Its warning that numeric intensity scores cannot be compared directly with labels such as “normal” is also useful.
 
-The team’s snapshots already identify starting friction, ignored limits, repeated mistakes, and the difference between a confirmed problem and an untested solution. The AI synthesis makes the cross-interview conflict more explicit: a blocker that is easy to dismiss may be ineffective for Laya, while a blocker that cannot be skipped may lose Alicia. It also separates the three original idea spaces. Difficulty obtaining explanations is not the same as difficulty beginning a study session, and repeated mistakes do not by themselves support a pre-app question. That separation leads to a narrower first product: one useful question, transparent controls, and a direct test of whether students keep the intervention enabled.
+Our revised synthesis gives more weight to learning quality as an immediate risk to UnlockDrill, rather than mainly a future wrong-answer-review topic. Sam's uncertainty about recognizing an answer versus understanding it challenges the value of one-question bursts. We also foreground accountability as a function the product may need to support, propose a specific explanation for the friction conflict—mindless app openings versus openings with a purpose—and make the question of student versus parent payment explicit. Our main difference is quote selection: we prefer Sam's learning-quality quote and Participant B's accountability quote to Arya's self-tagging quote and Participant B's two-minute preference. Arya's quote is more directly about ErrorJournal; Sam's account also comes from ErrorJournal, but we see its learning concern as more directly relevant to brief practice. The two-minute quote followed a pitch and leading questions. Part B already discloses that limitation, so our concern is about how prominently to feature it, not an undisclosed flaw. The accountability quote comes from the same interview and carries the same limitation. We otherwise agree on the overall conclusion and uncertainties, and recognize that Part B also lists willingness to pay as unestablished; our contribution is specifying who might pay rather than discovering that uncertainty.
 
-The supplied human notes preserve context the AI could otherwise flatten: some concerns appeared only after prompting, Participant B heard a pitch and leading questions, and several positive reactions came with conditions. They also record surprises such as tutoring as accountability and embarrassment about seeking free help. The AI adds a wording audit: several snapshot “quotes” are absent from or differ from the raw responses. The team should check the quotations below against original messages or recordings and replace this comparison with its own reflection where it disagrees. Neither the interviews nor this synthesis establish demand at scale.
+## Quote audit
+
+The five revised Part A quotations were checked against the HW3 raw notes. The earlier audit below is retained; snapshot-only wording is not substituted for raw responses.
 
 ### Audit findings
 

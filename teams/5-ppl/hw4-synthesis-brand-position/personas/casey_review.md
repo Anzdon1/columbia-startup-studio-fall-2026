@@ -1,5 +1,7 @@
 # Casey: brand-position review
 
+**Recorded version:** October 9 initial-copy simulation. This is preserved history; it does not test the October 17 evidence update.
+
 **Method:** AI-authored role simulation of the initial message “Turn phone time into SAT practice,” based on the cited interview and Reddit evidence. This was not an independently installed-agent execution or human feedback. The scores are synthetic calibration, not survey measurements.
 
 ```json

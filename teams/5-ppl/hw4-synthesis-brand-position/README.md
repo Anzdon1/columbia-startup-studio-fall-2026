@@ -1,36 +1,25 @@
-# 5 PPL — Homework 4: UnlockDrill
+# 5 PPL — Homework 4 fixes: UnlockDrill
 
-UnlockDrill offers one short SAT practice question at a chosen app-opening moment, with proposed skip, pause, and frequency controls.
+**Updated October 17, 2026 for the October 23 midterm.** Team: Linfeng Li, Yicheng Ying, Cody Wang, Arjun Joshi, Kushaan Vardhan.
 
-## Team
+## Submission
 
-Linfeng Li, Yicheng Ying, Cody Wang, Arjun Joshi, and Kushaan Vardhan. Roster source: [team README](../README.md).
+- [Synthesis comparison](synthesis_comparison.md): revised Part A, preserved Part B, revised Part C, and original quote audit.
+- [Reddit summary](reddit_research/summary.md), [30-thread corpus register](reddit_research/coverage.md), [selected quotes and uses](reddit_research/selected_quotes.md), and [18-excerpt ledger](reddit_research/quotes.jsonl).
+- [Brand position](brand_position.md) and [three personas](personas/README.md), with the approved Reddit selections integrated.
+- [Style guide](style_guide.md), [logo files](logo/), and [exploration history](design-exploration/README.md).
+- [Repository setup](repo_setup.md), updated against the existing [product repo](https://github.com/Tommylilinfeng/unlockdrill).
 
-## Deliverables
+The Markdown files are the current submission. The [October 9 PDF](UnlockDrill_HW4_Report.pdf) is an archived earlier report and does not contain these fixes.
 
-| Required item | Files |
-| --- | --- |
-| Synthesis comparison | [synthesis_comparison.md](synthesis_comparison.md) |
-| Reddit research | [Summary](reddit_research/summary.md), [threads](reddit_research/threads.md), [selected quotes](reddit_research/selected_quotes.md) |
-| Persona agents | [Three agents and review notes](personas/README.md) |
-| Brand position | [brand_position.md](brand_position.md) |
-| Style guide and logo | [style_guide.md](style_guide.md), [logo files](logo/), [visual directions](design-exploration/README.md) |
-| Repo setup | [repo_setup.md](repo_setup.md), [draft product documents](product-docs/) |
-| Consolidated report | [19-page PDF](UnlockDrill_HW4_Report.pdf) |
+## What changed
 
-The Markdown files follow the current class templates and are the primary submission. The PDF preserves the earlier report; its statement that the team roster was not supplied is superseded by the verified roster above. It contains page references that apply only within the PDF.
+The team manually collected 10 discovery searches and 30 distinct Reddit threads. The saved files contain 617 non-deleted/non-removed comment bodies, including one automated moderation comment excluded from interpretation. A duplicate was detected and corrected; all 18 ledger excerpts match exact saved text. Raw pages remain with the team, outside the class repository, following the class collection instructions. Checksums are supplied for verification.
 
-## Research provenance
+The team supplied revised synthesis and comparison notes, approved the five interview quotes and Reddit quote allocations, confirmed its prior expectation about content shortages, and approved the implemented design and logo with a reported phone visual check. The product repository, docs, installed persona files, and app already exist; the original setup status is corrected.
 
-The synthesis uses the team's [12 HW3 interview accounts](../hw3-interviews/interviews.md). The public Reddit scan uses five linked discussions. AI assistance was used for synthesis, web research, drafting, persona simulation, visual exploration, and original logo artwork. No fabricated interviews, testimonials, independent test results, or completed activities are claimed.
+## Authorship and remaining work
 
-## Completion limits
+The team manually collected the Reddit pages and reviewed the research decisions. The October 17 synthesis draft was prepared with Claude assistance; Codex organized and checked the revision, synthesized the saved corpus, and integrated the documents. The original October 9 materials also used AI assistance. No independent pre-AI cross-interview synthesis has been supplied, so this revision does not retroactively complete that sequence; the TA must determine whether the disclosed remediation meets the requirement.
 
-- Part A reconstructs existing human snapshots; the team's independent pre-AI synthesis and five-quote selection were not provided. Part C is AI-drafted for team review.
-- The public Reddit scan is not the required 30-100 manually saved JSON corpus. The class-agent/manual collection workflow remains outstanding.
-- Persona review notes are labeled role simulations. Installation and independent runs remain pending.
-- Visuals and logos are provisional; team feedback, refinement, and phone testing remain pending.
-- Product-repository creation and framework installation remain pending. Repo setup includes a proposed framework and the AGENTS.md copy, not a claim of a runnable app.
-- HW2 targeted adult multi-exam test takers; these interviews focus on SAT preparation. Final launch audience and exact participant ages are not established.
-
-These limits are retained so the submitted files accurately describe the work completed.
+[Companion product PR #21](https://github.com/Tommylilinfeng/unlockdrill/pull/21) synchronizes the revised personas and docs, initializes OpenSpec, and fixes the stale AGENTS.md run instructions. Fresh installed-agent runs remain blocked on Claude Code sign-in; existing review notes remain October 9 simulations. Intermediate design keep/kill notes were not supplied. The reported phone visual check is distinct from the still-open real-device Shortcuts test. No product retention, learning gains, willingness to pay, or GRE demand is claimed.
