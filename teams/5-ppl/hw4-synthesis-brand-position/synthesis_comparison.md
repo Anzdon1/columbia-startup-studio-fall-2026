@@ -209,4 +209,4 @@ The five revised Part A quotations were checked against the HW3 raw notes. The e
 
 ## Scope change from HW2
 
-[HW2's top two ideas](../hw2.2-design-work/05-top-two-ideas.md) targeted adults preparing for the GRE, GMAT, LSAT, or SAT. The supplied HW3 interviews primarily concern SAT preparation and include high-school students and a recent test taker. This draft therefore narrows its evidence claims to SAT preparation. It does not establish an adult-only sample or validate the other exams. Team confirmation of the launch audience remains needed.
+[HW2's top two ideas](../hw2.2-design-work/05-top-two-ideas.md) targeted adults preparing for the GRE, GMAT, LSAT, or SAT. The supplied HW3 interviews primarily concern SAT preparation and include high-school students and a recent test taker. This draft therefore narrows its evidence claims to SAT preparation. It does not establish an adult-only sample or validate the other exams. On October 17, the team confirmed SAT students generally as the initial launch audience. The product’s existing 18+ signup restriction remains an implementation mismatch to resolve; this decision does not validate GRE demand.

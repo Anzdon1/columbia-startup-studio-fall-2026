@@ -73,4 +73,4 @@ Test prompt eligibility, skip, pause, repeated opening, answer feedback, and err
 
 ## Remaining setup
 
-Review and merge companion PR #21 to land the prepared setup and evidence updates. Fresh installed-persona runs are blocked because `claude auth status` returned `loggedIn: false`. After sign-in, follow the included persona-review runbook and preserve the actual outputs. Real-device automation testing remains separate.
+Review and merge companion PR #21 to land the prepared setup and evidence updates. All three installed-persona reviews completed on October 17 using Claude Code with Sonnet. Actual outputs and feedback decisions are in [the persona notes](personas/README.md), with reproducibility metadata in the companion PR. Real-device automation testing remains separate.
