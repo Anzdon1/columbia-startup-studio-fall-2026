@@ -18,8 +18,8 @@ The team manually collected 10 discovery searches and 30 distinct Reddit threads
 
 The team supplied revised synthesis and comparison notes, approved the five interview quotes and Reddit quote allocations, confirmed its prior expectation about content shortages, and approved the implemented design and logo with a reported phone visual check. The product repository, docs, installed persona files, and app already exist; the original setup status is corrected.
 
-## Authorship and remaining work
+## Revision status and remaining work
 
-The team manually collected the Reddit pages and reviewed the research decisions. The October 17 synthesis draft was prepared with Claude assistance; Codex organized and checked the revision, synthesized the saved corpus, and integrated the documents. The original October 9 materials also used AI assistance. No independent pre-AI cross-interview synthesis has been supplied, so this revision does not retroactively complete that sequence; the TA must determine whether the disclosed remediation meets the requirement.
+The team confirms that its underlying Part A synthesis was completed independently before AI editing. Parts A and C present the team’s revised synthesis and reflection; Part B preserves the AI synthesis for comparison. The team manually collected the Reddit pages and reviewed the research decisions. Codex checked and integrated the revision and synthesized the saved Reddit corpus.
 
 [Companion product PR #21](https://github.com/Tommylilinfeng/unlockdrill/pull/21) synchronizes the revised personas and docs, initializes OpenSpec, and fixes the stale AGENTS.md run instructions. Fresh installed-agent runs remain blocked on Claude Code sign-in; existing review notes remain October 9 simulations. Intermediate design keep/kill notes were not supplied. The reported phone visual check is distinct from the still-open real-device Shortcuts test. No product retention, learning gains, willingness to pay, or GRE demand is claimed.

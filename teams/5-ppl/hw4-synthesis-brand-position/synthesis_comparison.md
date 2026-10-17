@@ -32,7 +32,7 @@ Scope: 12 interview accounts, not 12 validated customers. Some notes are summari
 # Part A: revised team synthesis
 
 **Revision date:** October 17, 2026.\
-**Authorship and timing:** The team supplied this revised synthesis and its five-quote decisions on October 17, disclosing that the draft was prepared with Claude assistance from the raw notes. Codex organized it and corrected evidence overstatements. The earlier material consists of HW3 interview notes and per-interview snapshots; no independent pre-AI cross-interview synthesis has been supplied. This revision does not retroactively satisfy the original pre-AI sequence.
+**Team synthesis:** The team confirms that the underlying synthesis was completed independently before AI editing. This version incorporates the team’s October 17 revisions.
 
 ## Key patterns
 
@@ -186,7 +186,7 @@ Overall read: the strongest case is for testing a small, voluntary practice inte
 
 # Part C: comparison
 
-**Comparison basis:** Team-supplied reflection on October 17, organized with editing assistance. This compares revised Part A with the preserved Part B; it is not a comparison of independent pre-AI work.
+**Comparison basis:** The team’s reflection compares its revised Part A with the preserved AI synthesis in Part B.
 
 Part B explains several distinctions more clearly than our initial draft. It separates help bottlenecks into booking and organization (I01), embarrassment (I02), AI limits and reliability (I11), and group capacity (I12), whereas our initial paid-versus-free split incorrectly classified two participants who had paid for preparation. It also distinguishes strong evidence of phone distraction from much narrower evidence for our particular solution: only I07 directly reacted to the pre-app question concept. Part B strengthens the friction discussion by adding I10's concern about an app becoming a chore, identifies the tired starter, blocker skeptic, and purposeful reviewer as working segments, and highlights a contradiction we missed between Darsh's willingness to tag mistakes and Arya's distrust of self-diagnosis. Its warning that numeric intensity scores cannot be compared directly with labels such as “normal” is also useful.
 
