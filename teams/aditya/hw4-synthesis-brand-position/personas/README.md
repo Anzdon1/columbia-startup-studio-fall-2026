@@ -20,9 +20,11 @@ for Gable to solve.
 
 ## What each persona said about our brand position
 
-<!-- Fill in after testing each agent against brand_position.md. -->
+We ran all four agents against `../brand_position.md` on Oct 15, fixed what came up more than once, then re-ran Dana and Jordan on the new version. Scores are before → after.
 
-- **Dana:** pending
-- **Theo:** pending
-- **Nora:** pending
-- **Jordan:** pending
+- **Dana (5 → 8, now approves):** She liked the Reddit quote about arranging a sublet "over the internet without being at risk of being scammed" because that's literally her. But she said the doc was mostly about saving people from tours she can't even go to, and never said how her deposit is protected, what happens if a listing is fake, or what we actually check. **Changed:** added a "What We Check (and What We Don't)" section (school email, proof they're on the lease, money only through Gable, deposit comes back if the listing is fake) and a line saying trust has to work without a visit.
+- **Theo (6, not re-run):** Said we nailed the problem ("never finding listings, it's figuring out which ones are real") but our big feature is scheduling tours, and his problem is 26 out of 30 people never writing back. He also needs exact dates and room for two. **Changed:** every listing now shows when the lister was last active and how fast they reply (also added to the positioning statement), and search covers exact dates, number of rooms, and furnished.
+- **Nora (6, not re-run):** Loved the coordination part ("half my weekends right there") but her issue is details that lie, like "pet friendly" meaning cats only. **Changed:** listing details are now marked as confirmed or just claimed by the lister. **Didn't change:** she also wanted one place to save listings from every site. That's a real product idea, but it's a feature, not positioning, so we're saving it for the MVP doc.
+- **Jordan (4 → 6, no longer rejects):** The only reject. Jordan is a student subletting their own room and couldn't find themselves anywhere in the doc. Our "Renters first... we side with the renter" value made listers sound like the other side. **Changed:** swapped that value for "Students on both sides," added students subletting their room to the target identity, added "cover your rent while you're away" (never "earn income from your space"), and (after the re-run) said only verified students can apply, with their dates up front. **Didn't change:** Jordan still wants to know what happens if a subletter stops paying or won't leave in May. We put it in open questions instead of making a promise we don't have a plan for yet.
+
+What we learned: payment and "what do you actually check?" came up from almost everyone, and the original doc only spoke to people searching, not the students listing rooms. The coordination pitch works for Nora but not for Dana or Theo, which backs up testing both headlines on the landing pages.
