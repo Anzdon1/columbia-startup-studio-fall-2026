@@ -20,7 +20,7 @@ All pages are live on `clientready.cc`, hosted on Cloudflare Pages and deployed 
 | Thank-you | [clientready.cc/thanks](https://clientready.cc/thanks) | After a signup | Confirms the request and fires the `signup` analytics event. Opening the URL directly also fires it, so test visits are excluded when counting. |
 | Privacy | [clientready.cc/privacy](https://clientready.cc/privacy) | — | What the site collects and why. |
 
-Every page, the homepage included, has one action: the early-access email form. Submissions go through Formspree to Handong's inbox with hidden fields for the page and the UTM values of the arriving link, then redirect to `/thanks?from=<page>`. The signup was tested end to end on October 23 from the `/long-document` page: the submission appeared in the Formspree inbox with `page=long-document` and the test UTM fields, and the browser was sent to `/thanks`, where the `signup` event fired.
+Every page, the homepage included, has one action: the early-access email form. Submissions go through Formspree to Handong's inbox with hidden fields for the page and the UTM values of the arriving link, then redirect to `/thanks?from=<page>`. The signup was tested end to end on October 23 from the `/long-document` page: the submission appeared in the Formspree inbox with `page=long-document` and the test UTM fields, the notification email arrived, and the browser was sent to `/thanks`, where the `signup` event fired.
 
 ## Look
 
